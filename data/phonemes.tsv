@@ -1,0 +1,61 @@
+grapheme	phoneme	type
+क	k	consonant
+ख	kʰ	consonant
+ग	g	consonant
+घ	gʱ	consonant
+ङ	ŋ	consonant
+च	ts	consonant
+छ	tsʰ	consonant
+ज	dz	consonant
+झ	dzʱ	consonant
+ञ	n	consonant
+ट	ʈ	consonant
+ठ	ʈʰ	consonant
+ड	ɖ	consonant
+ढ	ɖʱ	consonant
+ण	n	consonant
+त	t̪	consonant
+थ	t̪ʰ	consonant
+द	d̪	consonant
+ध	d̪ʱ	consonant
+न	n	consonant
+प	p	consonant
+फ	pʰ	consonant
+ब	b	consonant
+भ	bʱ	consonant
+म	m	consonant
+य	j	consonant
+र	r	consonant
+ल	l	consonant
+व	b	consonant
+श	s	consonant
+ष	s	consonant
+स	s	consonant
+ह	ɦ	consonant
+ज्ञ	g j	conjunct
+क्ष	k tsʰ	conjunct
+अ	ʌ	vowel
+आ	a	vowel
+इ	i	vowel
+ई	i	vowel
+उ	u	vowel
+ऊ	u	vowel
+ए	e	vowel
+ऐ	ʌi	vowel
+ओ	o	vowel
+औ	ʌu	vowel
+ऋ	r i	vowel
+ा	a	matra
+ि	i	matra
+ी	i	matra
+ु	u	matra
+ू	u	matra
+े	e	matra
+ै	ʌi	matra
+ो	o	matra
+ौ	ʌu	matra
+ृ	r i	matra
+्		sign
+ँ		sign
+ं		sign
+ः	ɦ	sign

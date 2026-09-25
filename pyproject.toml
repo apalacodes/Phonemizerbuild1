@@ -1,0 +1,19 @@
+[project]
+name = "phonemizer"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "editdistance>=0.8.1",
+    "streamlit>=1.64.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+# The shell exports ROS Foxy on PYTHONPATH; its pytest plugins break on py3.11+.
+addopts = "--disable-plugin-autoload"

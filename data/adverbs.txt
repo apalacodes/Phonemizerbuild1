@@ -1,0 +1,17 @@
+# S6 — Final inherent schwa retention (adverbs and conjunctions):
+# Words ending in a consonant with no vowel matra, where the final inherent /ʌ/
+# is retained in pronunciation (e.g., अब → ʌ b ʌ).
+#
+# Exclude words whose final vowel is explicitly marked by a matra
+# (e.g., भोलि, अहिले, धेरै), as well as words with lexical/frequent
+# final-schwa deletion (e.g., एकदम, अचानक, लगभग).
+# Spatial words (तल, पर, भित्र, बाहिर ...) live in postpositions.txt.
+
+अब
+आज
+तब
+जब
+किन
+तर
+अझ
+मात्र

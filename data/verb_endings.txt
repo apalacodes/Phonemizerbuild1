@@ -1,0 +1,18 @@
+# Verb-form endings (S7): if the word ends with one of these strings, a final
+# inherent vowel is KEPT (भएर -> bʱ ʌ e r ʌ). Matching is plain text: "ेर" matches गरेर.
+# Bare न and र are deliberately absent: they would keep the schwa of every noun
+# ending in न/र (घर, ज्ञान, जीवन ...). Add longer, verb-specific endings instead.
+# Entries ending in a matra (दै, ने) never change output; they document verb forms.
+छ
+न्छ
+एछ
+ेछ
+एर
+ेर
+एन
+ेन
+दैन
+छैन
+उन
+दै
+ने

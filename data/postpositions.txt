@@ -1,0 +1,22 @@
+# S6 — Final inherent schwa retention:
+# Words ending in a consonant with no vowel matra, where the final inherent /ʌ/
+# is retained in pronunciation (e.g., बाट → b a ʈ ʌ).
+#
+# Exclude words whose final vowel is explicitly marked by a matra
+# (e.g., देखि → i, लागि → i, बारे → e), as well as words with
+# lexical/frequent final-schwa deletion (e.g., साथ, कारण, बाहेक, सहित,
+# समेत, अनुसार, मार्फत, नजिक).
+
+बाट
+तिर
+सँग
+सम्म
+बिना
+भित्र
+बाहिर
+तल
+पर
+वर
+माझ
+विरुद्ध
+भर
