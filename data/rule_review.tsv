@@ -1,0 +1,32 @@
+rule	word	verdict	phonemes
+W5	अन्तरराष्ट्रिय	right	ʌ n t̪ ʌ r r a s ʈ r i j ʌ
+W5	अहराइ	right	ʌ ɦ r a i
+W5	अहराई	right	ʌ ɦ r a i
+W5	अहराऊ	right	ʌ ɦ r a u
+W5	अहराए	right	ʌ ɦ r a e
+W5	अहराओ	right	ʌ ɦ r a o
+W5	आइतबार	wrong	a i t̪ ʌ b a r
+W5	आईतबार	wrong	a i t̪ ʌ b a r
+W5	उनतीस	right	u n t̪ i s
+W5	उपनिषद्	wrong	u p ʌ n i s ʌ d̪
+W5	क्षयरोग	wrong	k tsʰ ʌ j ʌ r o g
+W5	गुणसूत्र	wrong	g u n ʌ s u t̪ r ʌ
+W5	देवनागरी	right	d̪ e w n a g ʌ r i
+W5	नकटाई	wrong	n ʌ k ʌ ʈ a i
+W5	नकटाऊ	wrong	n ʌ k ʌ ʈ a u
+W5	नकटाए	wrong	n ʌ k ʌ ʈ a e
+W5	बुधबार	wrong	b u d̪ʱ ʌ b a r
+W5	योगदानको	right	j o g d̪ a n k o
+W5	योगदानहरू	right	j o g d̪ a n ɦ ʌ r u
+W5	राजधानी	right	r a dz d̪ʱ a n i
+W5	राजविराज	custom	r a dz b i r a dz
+W5	विषयसूचि	wrong	b i s ʌ j ʌ s u ts i
+W5	विषयसूची	wrong	b i s ʌ j ʌ s u ts i
+W5	समलिङ्गी	wrong	s ʌ m ʌ l i ŋ g i
+W5	समाजवाद	right	s ʌ m a dz w a d̪
+W5	सहपाठी	wrong	s ʌ ɦ ʌ p a ʈʰ i
+W5	सोमवार	right	s o m w a r
+W5	हवाईजहाज	wrong	ɦ ʌ w a i dz ʌ ɦ a dz
+
+			
+			

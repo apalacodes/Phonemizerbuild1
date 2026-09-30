@@ -1,6 +1,15 @@
-models/
 .venv/
 __pycache__/
 .pytest_cache/
+# owner model files (Kokoro-82M): see tts/kokoro_voice.py
 models/
-.venv/
+# generated reports; data/*.tsv outputs are tracked
+bench/out/
+bench/ref/*.jsonl
+bench/ref/sangraha_words.tsv
+*.wav
+dist/
+# speech corpora (OpenSLR etc.): large, never commit
+datasets/
+# owner's speech-corpus transcripts: private, the remote is public
+metadata.csv

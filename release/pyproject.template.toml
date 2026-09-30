@@ -1,0 +1,21 @@
+[project]
+name = "deephoneme"
+version = "{version}"
+description = "Rule-based Nepali grapheme-to-phoneme converter"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.optional-dependencies]
+# The tester app and the Kokoro voice: uv run --extra app streamlit run app.py
+app = ["numpy>=2.5.3", "onnxruntime>=1.30.0", "streamlit>=1.64.0"]
+
+[project.scripts]
+deephoneme = "deephoneme.__main__:cli"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["deephoneme"]

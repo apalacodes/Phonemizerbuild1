@@ -1,15 +1,51 @@
 [project]
-name = "phonemizer"
+name = "deephoneme"
 version = "0.1.0"
+description = "deephoneme: rule-based Nepali grapheme-to-phoneme converter (schwa deletion, owner-verified exceptions)"
 requires-python = ">=3.12"
-dependencies = [
-    "editdistance>=0.8.1",
-    "streamlit>=1.64.0",
-]
+# The G2P itself is standard library only; the app, voice and benchmarks use the groups below.
+dependencies = []
+
+[project.scripts]
+deephoneme = "g2p.__main__:cli"
 
 [dependency-groups]
 dev = [
     "pytest>=9.1.1",
+]
+app = [
+    "editdistance>=0.8.1",
+    "numpy>=2.5.3",
+    "onnxruntime>=1.30.0",
+    "streamlit>=1.64.0",
+]
+
+[tool.uv]
+default-groups = ["dev", "app"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["g2p", "deephoneme"]
+
+# Data the G2P reads at run time, copied into the package (g2p/paths.py finds it there).
+[tool.hatch.build.targets.wheel.force-include]
+"data/phonemes.tsv" = "g2p/data/phonemes.tsv"
+"data/exceptions.tsv" = "g2p/data/exceptions.tsv"
+"data/pronouns.txt" = "g2p/data/pronouns.txt"
+"data/adverbs.txt" = "g2p/data/adverbs.txt"
+"data/postpositions.txt" = "g2p/data/postpositions.txt"
+"data/verb_endings.txt" = "g2p/data/verb_endings.txt"
+"data/suffixes.txt" = "g2p/data/suffixes.txt"
+"data/loanwords.txt" = "g2p/data/loanwords.txt"
+
+[tool.hatch.build.targets.sdist]
+only-include = [
+    "g2p", "deephoneme", "tests", "CLAUDE.md",
+    "data/phonemes.tsv", "data/exceptions.tsv", "data/pronouns.txt", "data/adverbs.txt",
+    "data/postpositions.txt", "data/verb_endings.txt", "data/suffixes.txt", "data/loanwords.txt",
 ]
 
 [tool.pytest.ini_options]

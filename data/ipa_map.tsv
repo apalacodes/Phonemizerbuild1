@@ -1,0 +1,53 @@
+# our_phoneme	ipa_symbols
+# Each of our phonemes maps to the symbols espeak-ng -v ne uses for the same sound (checked with
+# espeak-ng --ipa per letter), so our output and espeak's can be aligned and mixed (tts/hybrid.py).
+# The speaker (tts/kokoro_voice.py) reads these as IPA; it relabels c ɟ as ʦ ʣ.
+# A key starting with ˈ gives the vowel written after the stress mark (ʌ -> ˈʌ, not ˈə);
+# if absent, ˈ + the plain form is used.
+# Everything is NFD-normalized on load, so ã may be typed precomposed.
+k	k
+kʰ	kʰ
+g	ɡ
+gʱ	ɡʰ
+ŋ	ŋ
+ts	c
+tsʰ	cʰ
+dz	ɟ
+dzʱ	ɟʰ
+ʈ	ʈ
+ʈʰ	ʈʰ
+ɖ	ɖ
+ɖʱ	ɖʰ
+n	n
+t̪	t
+t̪ʰ	tʰ
+d̪	d
+d̪ʱ	dʰ
+p	p
+pʰ	pʰ
+b	b
+bʱ	bʰ
+m	m
+j	j
+r	ɾ
+l	l
+s	s
+ɦ	h
+w	w
+a	aː
+e	eː
+o	oː
+i	ɪ
+u	u
+ʌ	ə
+ˈʌ	ʌ
+ʌi	ai
+ʌu	ʌu
+ã	ã
+ẽ	ẽ
+ĩ	ĩ
+õ	õ
+ũ	ũ
+ʌ̃	ʌ̃
+ʌĩ	aĩ
+ʌũ	ʌũ

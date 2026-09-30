@@ -6,6 +6,14 @@ from g2p.normalize import normalize, tokenize
 def test_strips_zwj_zwnj():
     assert normalize("र्‍या") == "र्या"
     assert normalize("क‌ख") == "कख"
+    assert normalize("​विकृति") == "विकृति"  # zero-width space
+
+
+def test_repairs_matra_typing_habits():
+    assert normalize("राम्राे") == "राम्रो"      # ा + े typed for ो
+    assert normalize("गर्छाैं") == "गर्छौं"      # ा + ै typed for ौ
+    assert normalize("हुुने") == "हुने"          # doubled matra
+    assert normalize("बंैक") == "बैंक"          # anusvara typed before the matra
 
 
 def test_nukta_precomposed_and_decomposed_unify():

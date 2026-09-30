@@ -1,21 +1,20 @@
-"""Grapheme -> phoneme mapping driven by data/phonemes.tsv.
+"""Grapheme -> phoneme mapping driven by data/phonemes.tsv, with post-rules POST-1..3.
 
-Phase 1 output keeps every inherent vowel; schwa.py supplies a keep mask later.
+schwa.py supplies the keep mask for inherent vowels (None keeps every one).
 """
 
 import functools
 import logging
-from pathlib import Path
 
+from . import postrules
 from .normalize import normalize
+from .paths import DATA_DIR
 from .segment import Akshara, segment
 
 log = logging.getLogger(__name__)
 
-PHONEMES_TSV = Path(__file__).resolve().parent.parent / "data" / "phonemes.tsv"
+PHONEMES_TSV = DATA_DIR / "phonemes.tsv"
 SCHWA = "ʌ"
-NASAL = "̃"  # combining tilde
-VOWEL_PHONEMES = {"i", "e", "a", "ʌ", "o", "u", "ʌi", "ʌu"}
 
 
 @functools.cache
@@ -33,16 +32,19 @@ def load_table() -> dict[str, list[str]]:
     return table
 
 
-def _consonant_phonemes(consonants: tuple[str, ...]) -> list[str]:
+def _consonant_phonemes(consonants: tuple[str, ...], w_from: int | None = None) -> list[str]:
+    """Consonant cluster -> phonemes. व at cluster index >= w_from becomes w (POST-2)."""
     table = load_table()
     out, i = [], 0
     while i < len(consonants):
-        pair = "्".join(consonants[i:i + 2]) if i + 1 < len(consonants) else None
+        pair = "\u094d".join(consonants[i:i + 2]) if i + 1 < len(consonants) else None
         if pair in table:  # ज्ञ, क्ष
             out += table[pair]
             i += 2
             continue
-        if consonants[i] in table:
+        if w_from is not None and i >= w_from and consonants[i] == "व":
+            out.append("w")
+        elif consonants[i] in table:
             out += table[consonants[i]]
         else:
             log.warning("mapping: no phoneme for %r", consonants[i])
@@ -50,29 +52,20 @@ def _consonant_phonemes(consonants: tuple[str, ...]) -> list[str]:
     return out
 
 
-def _nasalize_last_vowel(phonemes: list[str]) -> None:
-    for j in range(len(phonemes) - 1, -1, -1):
-        if phonemes[j] in VOWEL_PHONEMES:
-            phonemes[j] += NASAL
-            return
-    log.warning("mapping: nasal sign with no vowel to nasalize in %r", phonemes)
+def akshara_phonemes(
+    ak: Akshara, keep_schwa: bool = True, next_ak: Akshara | None = None, w_from: int | None = None,
+) -> list[str]:
+    """Phonemes for one akshara. The inherent vowel is emitted only if keep_schwa.
 
-
-def akshara_phonemes(ak: Akshara, keep_schwa: bool = True) -> list[str]:
-    """Phonemes for one akshara. The inherent vowel is emitted only if keep_schwa."""
+    `next_ak` lets ं assimilate to a following stop (POST-1); `w_from` is for POST-2.
+    """
     table = load_table()
-    out = _consonant_phonemes(ak.consonants)
+    out = _consonant_phonemes(ak.consonants, w_from)
     if ak.vowel is not None:
         out += table[ak.vowel]
     elif ak.inherent and keep_schwa:
         out.append(SCHWA)
-    for sign in ak.signs:
-        if sign == "ँ":  # POST-3
-            _nasalize_last_vowel(out)
-        elif sign == "ं":  # POST-1 "elsewhere" case; homorganic nasal comes in phase 4
-            _nasalize_last_vowel(out)
-        else:
-            out += table[sign]
+    postrules.apply_signs(ak, next_ak, out, table["ः"])
     return out
 
 
@@ -81,8 +74,12 @@ def word_phonemes(aksharas: list[Akshara], keep: list[bool] | None = None) -> li
     if keep is None:
         keep = [True] * len(aksharas)
     out: list[str] = []
-    for ak, k in zip(aksharas, keep, strict=True):
-        out += akshara_phonemes(ak, keep_schwa=k)
+    for i, (ak, k) in enumerate(zip(aksharas, keep, strict=True)):
+        next_ak = aksharas[i + 1] if i + 1 < len(aksharas) else None
+        w_from = None
+        if "व" in ak.consonants:
+            w_from = next((j for j in range(len(ak.consonants)) if postrules.va_is_w(aksharas, i, j)), None)
+        out += akshara_phonemes(ak, keep_schwa=k, next_ak=next_ak, w_from=w_from)
     return out
 
 

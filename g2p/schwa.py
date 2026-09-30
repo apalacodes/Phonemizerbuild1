@@ -8,13 +8,13 @@ Word-list rules match the stem (after suffix splitting) or the full word.
 """
 
 import functools
+import unicodedata
 from dataclasses import dataclass
-from pathlib import Path
 
+from . import postrules
 from .normalize import normalize
+from .paths import DATA_DIR
 from .segment import Akshara
-
-DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 KEEP, DELETE = True, False
 
 # Named in the S9 rule itself (CLAUDE.md): a native word that behaves like a loan.
@@ -36,7 +36,8 @@ def load_list(filename: str) -> frozenset[str]:
 
 @functools.cache
 def load_exceptions() -> dict[str, list[str]]:
-    """word -> phonemes from data/exceptions.tsv."""
+    """word -> phonemes from data/exceptions.tsv. Phonemes are NFD (a + U+0303), like the G2P's own
+    output, so a precomposed ã typed by hand gives the same symbols."""
     table = {}
     with open(DATA_DIR / "exceptions.tsv", encoding="utf-8") as f:
         for line in f:
@@ -44,7 +45,7 @@ def load_exceptions() -> dict[str, list[str]]:
             if not line.strip() or line.startswith("#"):
                 continue
             word, phonemes = line.split("\t")
-            table[normalize(word)] = phonemes.split()
+            table[normalize(word)] = unicodedata.normalize("NFD", phonemes).split()
     return table
 
 
@@ -105,9 +106,14 @@ def rule_s8(aks: list[Akshara], i: int, ctx: Context) -> bool | None:
     return KEEP if aks[i].consonants[-1] in "छयह" else None
 
 
+def _final_conjunct(aks: list[Akshara], i: int) -> bool:
+    """A written conjunct, or ं + stop, which spells a nasal conjunct (अंक = अङ्क, संत = सन्त)."""
+    return aks[i].is_conjunct or postrules.anusvara_cluster(aks, i)
+
+
 def rule_s9(aks: list[Akshara], i: int, ctx: Context) -> bool | None:
     """S9: final akshara is a conjunct and word in loanwords.txt (or the word is मञ्च) -> DELETE."""
-    if not aks[i].is_conjunct:
+    if not _final_conjunct(aks, i):
         return None
     if _listed(ctx, "loanwords.txt") or ctx.stem in S9_EXTRA_WORDS or ctx.word in S9_EXTRA_WORDS:
         return DELETE
@@ -115,8 +121,8 @@ def rule_s9(aks: list[Akshara], i: int, ctx: Context) -> bool | None:
 
 
 def rule_s10(aks: list[Akshara], i: int, ctx: Context) -> bool | None:
-    """S10: final akshara is a conjunct -> KEEP."""
-    return KEEP if aks[i].is_conjunct else None
+    """S10: final akshara is a conjunct (incl. ं + stop, see POST-1) -> KEEP."""
+    return KEEP if _final_conjunct(aks, i) else None
 
 
 def rule_s11(aks: list[Akshara], i: int, ctx: Context) -> bool | None:
@@ -146,7 +152,7 @@ def decide_with_rules(aks: list[Akshara], word: str | None = None) -> list[tuple
     """
     stem = "".join(a.text for a in aks)
     ctx = Context(word=word if word is not None else stem, stem=stem)
-    out = []
+    out: list[tuple[bool, str | None]] = []
     for i, ak in enumerate(aks):
         if not ak.inherent:
             out.append((KEEP, None))
@@ -162,3 +168,21 @@ def decide_with_rules(aks: list[Akshara], word: str | None = None) -> list[tuple
 def decide(aks: list[Akshara], word: str | None = None) -> list[bool]:
     """Keep mask for mapping.word_phonemes()."""
     return [keep for keep, _ in decide_with_rules(aks, word)]
+
+
+def save_exception(word: str, phonemes: list[str]) -> None:
+    """Add or replace `word` in data/exceptions.tsv (S0) and refresh the cache."""
+    word = normalize(word)
+    path = DATA_DIR / "exceptions.tsv"
+    lines = path.read_text(encoding="utf-8").splitlines()
+    entry = f"{word}\t{' '.join(phonemes)}"
+    for k, line in enumerate(lines):
+        if not line.startswith("#") and normalize(line.split("\t", 1)[0]) == word:
+            lines[k] = entry
+            break
+    else:
+        if "# Reviewed in the app (Review tab)" not in lines:
+            lines.append("# Reviewed in the app (Review tab)")
+        lines.append(entry)
+    path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    load_exceptions.cache_clear()

@@ -8,12 +8,12 @@ at least MIN_STEM_AKSHARAS aksharas. Every split is logged to stdout.
 import functools
 import logging
 import sys
-from pathlib import Path
 
 from .normalize import normalize
+from .paths import DATA_DIR
 from .segment import segment
 
-SUFFIXES_TXT = Path(__file__).resolve().parent.parent / "data" / "suffixes.txt"
+SUFFIXES_TXT = DATA_DIR / "suffixes.txt"
 MIN_STEM_AKSHARAS = 2
 
 

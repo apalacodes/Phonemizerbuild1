@@ -13,7 +13,7 @@ def xfail(reason):
 # word, expected, rules (as listed in CLAUDE.md), marks
 REQUIRED = [
     ("कमल", "k ʌ m ʌ l", "S11", ()),
-    ("समय", "s ʌ m ʌ j ʌ", "S2, S8", ()),
+    ("समय", "s ʌ m ʌ j", "S0 (owner, audio check 2026-09-29)", ()),
     ("कस्तो", "k ʌ s t̪ o", "S1", ()),
     ("झन्", "dzʱ ʌ n", "halanta", ()),
     ("गुरुङ", "g u r u ŋ", "S4", ()),
@@ -22,7 +22,7 @@ REQUIRED = [
     ("कारण", "k a r ʌ n", "S11", ()),
     ("साथ", "s a t̪ʰ", "S11", ()),
     ("देश", "d̪ e s", "S11", ()),
-    ("मानव", "m a n ʌ b", "S11, POST-2", ()),
+    ("मानव", "m a n ʌ w", "S11, POST-2", ()),
     ("अन्त", "ʌ n t̪ ʌ", "S10", ()),
     ("सम्बन्ध", "s ʌ m b ʌ n d̪ʱ ʌ", "S10", ()),
     ("हुन्छ", "ɦ u n tsʰ ʌ", "S7/S8/S10", ()),
@@ -40,7 +40,7 @@ REQUIRED = [
     ("मञ्च", "m ʌ n ts", "S9", ()),
     ("घरमा", "gʱ ʌ r m a", "suffix split + S11", ()),
     ("नेपालको", "n e p a l k o", "suffix split + S11", ()),
-    ("संगीत", "s ʌ ŋ g i t̪", "POST-1, S11", (xfail("POST-1 (phase 4)"),)),
+    ("संगीत", "s ʌ ŋ g i t̪", "POST-1, S11", ()),
     ("महँगो", "m ʌ ɦ ʌ̃ g o", "S1, POST-3", ()),
     ("छ", "tsʰ ʌ", "S2", ()),
     ("म", "m ʌ", "S2", ()),
@@ -161,3 +161,8 @@ def test_s11_default_delete():
 
 def test_non_inherent_aksharas_have_no_rule():
     assert schwa.decide_with_rules(segment("नेपाल"))[:2] == [(True, None), (True, None)]
+
+
+def test_medial_schwa_kept():
+    # medial syncope (rule W5) was rejected by ear on 2026-09-28: S3 keeps medial schwas
+    assert phonemize_word("अखबार") == "ʌ kʰ ʌ b a r".split()

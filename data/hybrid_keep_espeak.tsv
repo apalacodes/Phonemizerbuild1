@@ -1,0 +1,4 @@
+# espeak_segment	our_phoneme
+# Hybrid mode: where these two disagree, keep espeak's segment (it sounds better on the
+# voice) instead of ours. One pair per line; add more after listening tests.
+ʂ	tsʰ

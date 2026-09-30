@@ -1,3 +1,5 @@
+import unicodedata
+
 import pytest
 
 from g2p.mapping import load_table, raw_phonemes, word_phonemes
@@ -5,8 +7,10 @@ from g2p.segment import segment
 
 INVENTORY = {
     "i", "e", "a", "ʌ", "o", "u", "ʌi", "ʌu",
+    "ĩ", "ẽ", "ã", "ʌ̃", "ũ", "õ", "ʌĩ", "ʌũ",  # nasalized (POST-1/3); only via G2P output or exceptions
     "k", "kʰ", "g", "gʱ", "ŋ", "ts", "tsʰ", "dz", "dzʱ", "n", "ʈ", "ʈʰ", "ɖ", "ɖʱ",
     "t̪", "t̪ʰ", "d̪", "d̪ʱ", "p", "pʰ", "b", "bʱ", "m", "j", "r", "l", "s", "ɦ",
+    "w",  # POST-2: only via exceptions.tsv
 }
 
 
@@ -30,7 +34,7 @@ def test_table_has_all_consonants():
     ("झन्", "dzʱ ʌ n"),
     ("क्षमा", "k tsʰ ʌ m a"),
     ("ऋषि", "r i s i"),
-    ("मानव", "m a n ʌ b ʌ"),
+    ("मानव", "m a n ʌ w ʌ"),  # POST-2: non-initial व -> w
     ("मार्च", "m a r ts ʌ"),
     ("भएर", "bʱ ʌ e r ʌ"),
     ("चिसो", "ts i s o"),
@@ -55,8 +59,9 @@ def test_chandrabindu_nasalizes_matra():
 
 def test_exceptions_use_only_inventory_symbols():
     from g2p.schwa import load_exceptions
+    inventory = {unicodedata.normalize("NFD", p) for p in INVENTORY}  # the G2P writes ã as a + U+0303
     for word, phonemes in load_exceptions().items():
-        assert set(phonemes) <= INVENTORY, word
+        assert set(phonemes) <= inventory, word
 
 
 @pytest.mark.parametrize("filename", [
