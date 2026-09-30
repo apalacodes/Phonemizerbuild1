@@ -39,6 +39,7 @@ word	decision	phonemes
 अमरसिंह	audio	ʌ m ʌ r ʌ s ĩ ɦ
 अलार्म	audio	ʌ l a r m
 अल्ट्रासाउण्ड	audio	ʌ l ʈ r a s a u n ɖ
+अल्पकालीन	audio	ʌ l p ʌ k a l i n ʌ
 अवश्य	audio	ʌ w ʌ s j
 अवसरबारे	audio	ʌ w ʌ s ʌ r b a r e
 अवसरवादमा	audio	ʌ w ʌ s ʌ r w a d̪ m a
@@ -115,6 +116,7 @@ word	decision	phonemes
 उद्योगहरूले	audio	u d̪ j o g ʌ ɦ ʌ r u l e
 उनका	rival	u n k a
 उनकै	audio	u n k ʌi
+उनको	audio	u n ʌ k o
 उनान्सय	audio	u n a n s ʌ j
 उन्नयनमा	audio	u n n ʌ j ʌ n ʌ m a
 उप	rival	u p ʌ
@@ -149,7 +151,7 @@ word	decision	phonemes
 ऊसँगको	audio	u s ʌ̃ g ʌ k o
 एकचालीस	audio	e k ts a l i s
 एकछिन	audio	e k tsʰ i n
-एकछिनपछि	audio	e k tsʰ i n ʌ p ʌ tsʰ i
+एकछिनपछि	rival	e k tsʰ i n p ʌ tsʰ i
 एकछिनमा	audio	e k tsʰ i n m a
 एकजुट	audio	e k dz u ʈ
 एकतीस	audio	e k t̪ i s
@@ -280,6 +282,7 @@ word	decision	phonemes
 कुटपिटको	audio	k u ʈ p i ʈ k o
 कुन	ours	k u n
 कुलमान	audio	k u l m a n
+केवल	audio	k e w ʌ l ʌ
 केहीबेर	audio	k e ɦ i b e r
 केहीबेरमा	audio	k e ɦ i b e r m a
 कोण	audio	k o n ʌ
@@ -331,7 +334,7 @@ word	decision	phonemes
 गन्तव्यमा	audio	g ʌ n t̪ ʌ w j m a
 गफिन	audio	g ʌ pʰ i n ʌ
 गर	audio	g ʌ r ʌ
-गरिरहेका	rival	g ʌ r i r ɦ e k a
+गरिरहेका	rival	g ʌ r i r ʌ ɦ e k a
 गरिरहेकी	audio	g ʌ r i r ɦ e k i
 गरिरहेकै	audio	g ʌ r i r ɦ e k ʌi
 गरिरहेको	rival	g ʌ r i r ʌ ɦ e k o
@@ -356,6 +359,7 @@ word	decision	phonemes
 गोठाटारबाहेक	audio	g o ʈʰ a ʈ a r b a ɦ e k
 गोरखा	audio	g o r kʰ a
 गोरखापत्रमा	audio	g o r kʰ a p ʌ t̪ r ʌ m a
+गोल	audio	g o l ʌ
 गोलभेडा	audio	g o l bʱ e ɖ a
 गोलीमार	audio	g o l i m a r ʌ
 गोल्ड	audio	g o l ɖ
@@ -420,6 +424,7 @@ word	decision	phonemes
 छानबिनमा	audio	tsʰ a n b i n m a
 छापिन	audio	tsʰ a p i n ʌ
 छिटपुटरुपमा	audio	tsʰ i ʈ p u ʈ ʌ r u p m a
+छिन	rival	tsʰ i n ʌ
 छिप्पिन	audio	tsʰ i p p i n ʌ
 छुट्टिनका	audio	tsʰ u ʈ ʈ i n ʌ k a
 छेकवार	audio	tsʰ e k w a r
@@ -485,6 +490,7 @@ word	decision	phonemes
 ट्याबलेट	audio	ʈ j a b l e ʈ
 ट्राफिक	audio	ʈ r a pʰ i k ʌ
 ट्रिटमेन्ट	audio	ʈ r i ʈ m e n ʈ ʌ
+ट्रेड	audio	ʈ r e ɖ ʌ
 ट्रेडमार्क	audio	ʈ r e ɖ m a r k ʌ
 ट्रेडमार्कमा	audio	ʈ r e ɖ m a r k ʌ m a
 ट्रेन्ड	audio	ʈ r e n ɖ
@@ -508,7 +514,8 @@ word	decision	phonemes
 डेटासेन्टर	audio	ɖ e ʈ a s e n ʈ ʌ r ʌ
 डेलिभरी	audio	ɖ e l i bʱ r i
 ड्याङ्ङ	audio	ɖ j a ŋ ŋ ʌ
-ड्रोन	audio	ɖ r o n ʌ
+ड्रोन	rival	ɖ r o n
+ढलको	audio	ɖʱ ʌ l ʌ k o
 ढामढुम	audio	ɖʱ a m ɖʱ u m
 ढुकुर	ours	ɖʱ u k u r
 तत्परता	audio	t̪ ʌ t̪ p ʌ r t̪ a
@@ -573,6 +580,7 @@ word	decision	phonemes
 दूतावास	custom	d̪ u t̪ a b a s
 दूरगामी	audio	d̪ u r g a m i
 दूरतामा	audio	d̪ u r t̪ a m a
+दृश्यहरू	audio	d̪ r i s j ɦ ʌ r u
 देखाइरहेको	audio	d̪ e kʰ a i r ɦ e k o
 देखिन	audio	d̪ e kʰ i n ʌ
 देखिनका	audio	d̪ e kʰ i n ʌ k a
@@ -620,7 +628,7 @@ word	decision	phonemes
 नागरिक	audio	n a g r i k
 नागरिकका	audio	n a g r i k k a
 नागरिकको	audio	n a g r i k k o
-नागरिकता	audio	n a g r i k ʌ t̪ a
+नागरिकता	rival	n a g r i k t̪ a
 नागरिकप्रति	audio	n a g r i k ʌ p r ʌ t̪ i
 नागरिकबीचको	audio	n a g r i k ʌ b i ts k o
 नागरिकमाथि	audio	n a g r i k ʌ m a t̪ʰ i
@@ -798,6 +806,7 @@ word	decision	phonemes
 बनिरहेका	audio	b ʌ n i r ɦ e k a
 बनिरहेको	audio	b ʌ n i r ɦ e k o
 बराल	audio	b ʌ r a l ʌ
+बल	audio	b ʌ l ʌ
 बलिदान	audio	b ʌ l i d̪ a n ʌ
 बसिरहेकी	audio	b ʌ s i r ɦ e k i
 बसोबास	rival	b ʌ s o b a s
@@ -898,6 +907,7 @@ word	decision	phonemes
 भीडभाड	audio	bʱ i ɖ bʱ a ɖ
 भीडभाडबिना	audio	bʱ i ɖ bʱ a ɖ ʌ b i n a
 भीर	ours	bʱ i r
+भुटानका	audio	bʱ u ʈ a n ʌ k a
 भुटानमाथि	audio	bʱ u ʈ a n m a t̪ʰ i
 भूराजनीतिक	audio	bʱ u r a dz n i t̪ i k
 भृकुटीमण्डपटुकुचाको	audio	bʱ r i k u ʈ i m ʌ n ɖ ʌ p ʈ u k u ts a k o
@@ -1046,7 +1056,7 @@ word	decision	phonemes
 रामधारीले	audio	r a m d̪ʱ a r i l e
 राय	audio	r a j
 रायमा	audio	r a j m a
-रायले	audio	r a j l e
+रायले	rival	r a j ʌ l e
 राहतलगायत	audio	r a ɦ ʌ t̪ ʌ l g a j ʌ t̪
 रिक्वेस्ट	audio	r i k w e s ʈ
 रिजल्ट	audio	r i dz ʌ l ʈ
@@ -1129,20 +1139,231 @@ word	decision	phonemes
 लोडसेडिङविरुद्ध	audio	l o ɖ s e ɖ i ŋ ʌ w i r u d̪ d̪ʱ ʌ
 ल्याइरहेका	audio	l j a i r ɦ e k a
 ल्याबरेटोरी	audio	l j a b r e ʈ o r i
-वरपरका	audio	b ʌ r ʌ p ʌ r ʌ k a
+वरपरका	rival	w ʌ r ʌ p ʌ r ʌ k a
 वरपरको	audio	b ʌ r ʌ p ʌ r ʌ k o
 वर्क	audio	b ʌ r k
 वर्गीयले	audio	b ʌ r g i j l e
-वर्ल्ड	audio	b ʌ r l ɖ
+वर्ल्ड	rival	w ʌ r l ɖ
+वर्ल्डः	custom	w ʌ r l ɖ ʌ ɦ
+वर्ल्डकन	custom	w ʌ r l ɖ ʌ k ʌ n
+वर्ल्डकम	custom	w ʌ r l ɖ ʌ k ʌ m
+वर्ल्डक्याट	custom	w ʌ r l ɖ ʌ k j a ʈ
+वर्ल्डद्वारा	custom	w ʌ r l ɖ ʌ d̪ w a r a
+वर्ल्डनेटडेली	custom	w ʌ r l ɖ ʌ n e ʈ ʌ ɖ e l i
+वर्ल्डप्राइड	custom	w ʌ r l ɖ ʌ p r a i ɖ
+वर्ल्डफेस्ट	custom	w ʌ r l ɖ ʌ pʰ e s ʈ ʌ
+वर्ल्डबिट	custom	w ʌ r l ɖ ʌ b i ʈ
+वर्ल्डभिजन	custom	w ʌ r l ɖ ʌ bʱ i dz ʌ n
+वर्ल्डभ्यु	custom	w ʌ r l ɖ ʌ bʱ j u
+वर्ल्डवाइड	custom	w ʌ r l ɖ ʌ w a i ɖ
+वर्ल्डवाच	custom	w ʌ r l ɖ ʌ w a ts
+वर्ल्ड्स	custom	w ʌ r l ɖ s ʌ
+वर्ल्ड्सः	custom	w ʌ r l ɖ s ʌ ɦ
+वा	rival	w a
+वाइटुक	custom	w a i ʈ u k
+वाइन	custom	w a i n
+वाइनः	custom	w a i n ɦ
+वाइनकफ	custom	w a i n ʌ k ʌ pʰ
+वाइनगर	custom	w a i n ʌ g ʌ r
+वाइनग्लास	custom	w a i n ʌ g l a s
+वाइनद्वारा	custom	w a i n ʌ d̪ w a r a
+वाइनप्रेस	custom	w a i n ʌ p r e s
+वाइनफ्रिड	custom	w a i n ʌ pʰ r i ɖ
+वाइनफ्रेड	custom	w a i n ʌ pʰ r e ɖ
+वाइनफ्रेडको	custom	w a i n ʌ pʰ r e ɖ k o
+वाइनफ्रेडले	custom	w a i n ʌ pʰ r e ɖ l e
+वाइनमेकर	custom	w a i n ʌ m e k ʌ r
+वाइनमेकरको	custom	w a i n ʌ m e k ʌ r k o
+वाइनमेकिङ	custom	w a i n ʌ m e k i ŋ
+वाइनयार्ड	custom	w a i n ʌ j a r ɖ ʌ
+वाइनयार्डको	custom	w a i n ʌ j a r ɖ ʌ k o
+वाइनयार्डमा	custom	w a i n ʌ j a r ɖ ʌ m a
+वाइनर	custom	w a i n ʌ r
+वाइनरको	custom	w a i n ʌ r k o
+वाइनरद्वारा	custom	w a i n ʌ r ʌ d̪ w a r a
+वाइनरलाई	custom	w a i n ʌ r l a i
+वाइनरले	custom	w a i n ʌ r l e
+वाइनरहरू	custom	w a i n ʌ r ɦ ʌ r u
+वाइनरी	custom	w a i n ʌ r i
+वाइनरीका	custom	w a i n ʌ r i k a
+वाइनरीको	custom	w a i n ʌ r i k o
+वाइनरीद्वारा	custom	w a i n ʌ r i d̪ w a r a
+वाइनरीबाट	custom	w a i n ʌ r i b a ʈ ʌ
+वाइनरीमा	custom	w a i n ʌ r i m a
+वाइनरीलाई	custom	w a i n ʌ r i l a i
+वाइनरीले	custom	w a i n ʌ r i l e
+वाइनरीसँग	custom	w a i n ʌ r i s ʌ̃ g ʌ
+वाइनरीहरू	custom	w a i n ʌ r i ɦ ʌ r u
+वाइनरीहरूका	custom	w a i n ʌ r i ɦ ʌ r u k a
+वाइनरीहरूको	custom	w a i n ʌ r i ɦ ʌ r u k o
+वाइनरीहरूद्वारा	custom	w a i n ʌ r i ɦ ʌ r u d̪ w a r a
+वाइनरीहरूबाट	custom	w a i n ʌ r i ɦ ʌ r u b a ʈ ʌ
+वाइनरीहरूमा	custom	w a i n ʌ r i ɦ ʌ r u m a
+वाइनरीहरूलाई	custom	w a i n ʌ r i ɦ ʌ r u l a i
+वाइनरीहरूले	custom	w a i n ʌ r i ɦ ʌ r u l e
+वाइनसबर्ग	custom	w a i n ʌ s ʌ b ʌ r g ʌ
+वाइनसहित	custom	w a i n ʌ s ʌ ɦ i t̪
+वाइनस्किन	custom	w a i n ʌ s k i n
+वाइनस्टाइन	custom	w a i n ʌ s ʈ a i n
+वाइनस्टाइनका	custom	w a i n ʌ s ʈ a i n k a
+वाइनस्टाइनको	custom	w a i n ʌ s ʈ a i n k o
+वाइनस्टाइनद्वारा	custom	w a i n ʌ s ʈ a i n ʌ d̪ w a r a
+वाइनस्टाइनलाई	custom	w a i n ʌ s ʈ a i n l a i
+वाइनस्टाइनले	custom	w a i n ʌ s ʈ a i n l e
+वाइनस्टाइनसँग	custom	w a i n ʌ s ʈ a i n s ʌ̃ g ʌ
+वाइनस्टीन	custom	w a i n ʌ s ʈ i n
+वाइनहाउस	custom	w a i n ʌ ɦ a u s
+वाइनहाउसका	custom	w a i n ʌ ɦ a u s k a
+वाइनहाउसको	custom	w a i n ʌ ɦ a u s k o
+वाइनहाउसलाई	custom	w a i n ʌ ɦ a u s l a i
+वाइनहाउसले	custom	w a i n ʌ ɦ a u s l e
+वाइनिक	custom	w a i n i k
+वाइनिङ	custom	w a i n i ŋ
+वाइनी	custom	w a i n i
+वाइने	custom	w a i n e
+वाइनेकपले	custom	w a i n e k ʌ p l e
+वाइनेट	custom	w a i n e ʈ
+वाइनेटको	custom	w a i n e ʈ k o
+वाइनेटद्वारा	custom	w a i n e ʈ ʌ d̪ w a r a
+वाइनेटले	custom	w a i n e ʈ l e
+वाइनेटसँग	custom	w a i n e ʈ s ʌ̃ g ʌ
+वाइनेफिल्ड	custom	w a i n e pʰ i l ɖ ʌ
+वाइनो	custom	w a i n o
+वाइनोना	custom	w a i n o n a
+वाइनोनी	custom	w a i n o n i
+वाइन्ज	custom	w a i n dz ʌ
+वाइन्ड	custom	w a i n ɖ ʌ
+वाइन्डिङ	custom	w a i n ɖ i ŋ
+वाइन्डिङका	custom	w a i n ɖ i ŋ k a
+वाइन्डिङको	custom	w a i n ɖ i ŋ k o
+वाइन्डिङबाट	custom	w a i n ɖ i ŋ b a ʈ ʌ
+वाइन्डिङमा	custom	w a i n ɖ i ŋ m a
+वाइन्डिङलाई	custom	w a i n ɖ i ŋ l a i
+वाइन्डिङले	custom	w a i n ɖ i ŋ l e
+वाइन्डिङसँग	custom	w a i n ɖ i ŋ s ʌ̃ g ʌ
+वाइन्डिङहरू	custom	w a i n ɖ i ŋ ɦ ʌ r u
+वाइन्डिङहरूको	custom	w a i n ɖ i ŋ ɦ ʌ r u k o
+वाइन्स	custom	w a i n s ʌ
+वाइन्सटाइन	custom	w a i n s ʌ ʈ a i n
+वाइफ	custom	w a i pʰ
+वाइफपी	custom	w a i pʰ ʌ p i
+वाइफा	custom	w a i pʰ a
+वाइफाइ	custom	w a i pʰ a i
+वाइफाइका	custom	w a i pʰ a i k a
+वाइफाइको	custom	w a i pʰ a i k o
+वाइफाइमा	custom	w a i pʰ a i m a
+वाइफाइलाई	custom	w a i pʰ a i l a i
+वाइफाइले	custom	w a i pʰ a i l e
+वाइफाई	custom	w a i pʰ a i
+वाइफी	custom	w a i pʰ i
+वाइफु	custom	w a i pʰ u
+वाइफेरिक	custom	w a i pʰ e r i k
+वाइफोल्ड	custom	w a i pʰ o l ɖ ʌ
+वाइफ्रेडो	custom	w a i pʰ r e ɖ o
+वाइफ्स	custom	w a i pʰ s ʌ
 वाक्नु	custom	w a k n u
+वाक्य	audio	b a k j
 वाङ्ला	ours	b a ŋ l a
-वायरिङमा	audio	b a j r i ŋ m a
+वाट्सएप	custom	w a ʈ s ʌ e p
+वायरिङ	custom	w a j ʌ r i ŋ
+वायरिङमा	custom	w a j r i ŋ m a
 वारपार	audio	b a r p a r
-वार्ड	audio	b a r ɖ
-वार्डमा	audio	b a r ɖ m a
-वार्डेन	audio	b a r ɖ e n
-वालपेपर	audio	b a l p e p ʌ r
-वालपेपरको	audio	b a l p e p ʌ r k o
+वार्ड	custom	w a r ɖ
+वार्डः	custom	w a r ɖ ʌ ɦ
+वार्डअन्तर्गत	custom	w a r ɖ ʌ ʌ n t̪ ʌ r g ʌ t̪
+वार्डटाउन	custom	w a r ɖ ʌ ʈ a u n ʌ
+वार्डद्वारा	custom	w a r ɖ ʌ d̪ w a r a
+वार्डन	custom	w a r ɖ ʌ n
+वार्डनः	custom	w a r ɖ ʌ n ɦ
+वार्डनका	custom	w a r ɖ ʌ n k a
+वार्डनकी	custom	w a r ɖ ʌ n k i
+वार्डनको	custom	w a r ɖ ʌ n k o
+वार्डनद्वारा	custom	w a r ɖ ʌ n ʌ d̪ w a r a
+वार्डनबाट	custom	w a r ɖ ʌ n b a ʈ ʌ
+वार्डनमा	custom	w a r ɖ ʌ n m a
+वार्डनर	custom	w a r ɖ ʌ n ʌ r
+वार्डनलाई	custom	w a r ɖ ʌ n l a i
+वार्डनले	custom	w a r ɖ ʌ n l e
+वार्डनसँग	custom	w a r ɖ ʌ n s ʌ̃ g ʌ
+वार्डनहरू	custom	w a r ɖ ʌ n ɦ ʌ r u
+वार्डनहरूको	custom	w a r ɖ ʌ n ɦ ʌ r u k o
+वार्डनहरूद्वारा	custom	w a r ɖ ʌ n ʌ ɦ ʌ r u d̪ w a r a
+वार्डनहरूलाई	custom	w a r ɖ ʌ n ɦ ʌ r u l a i
+वार्डनहरूले	custom	w a r ɖ ʌ n ɦ ʌ r u l e
+वार्डपछि	custom	w a r ɖ ʌ p ʌ tsʰ i
+वार्डभित्र	custom	w a r ɖ ʌ bʱ i t̪ r ʌ
+वार्डमध्ये	custom	w a r ɖ ʌ m ʌ d̪ʱ j e
+वार्डमा	custom	w a r ɖ m a
+वार्डम्यान	custom	w a r ɖ ʌ m j a n
+वार्डम्यानले	custom	w a r ɖ ʌ m j a n l e
+वार्डर	custom	w a r ɖ ʌ r
+वार्डरको	custom	w a r ɖ ʌ r k o
+वार्डरलाई	custom	w a r ɖ ʌ r l a i
+वार्डरले	custom	w a r ɖ ʌ r l e
+वार्डरहरू	custom	w a r ɖ ʌ r ɦ ʌ r u
+वार्डरहरूको	custom	w a r ɖ ʌ r ɦ ʌ r u k o
+वार्डरहरूलाई	custom	w a r ɖ ʌ r ɦ ʌ r u l a i
+वार्डरहरूले	custom	w a r ɖ ʌ r ɦ ʌ r u l e
+वार्डरुम	custom	w a r ɖ ʌ r u m
+वार्डरूममा	custom	w a r ɖ ʌ r u m m a
+वार्डरोप	custom	w a r ɖ ʌ r o p
+वार्डरोपले	custom	w a r ɖ ʌ r o p l e
+वार्डरोब	custom	w a r ɖ ʌ r o b
+वार्डरोबका	custom	w a r ɖ ʌ r o b k a
+वार्डरोबको	custom	w a r ɖ ʌ r o b k o
+वार्डरोबबाट	custom	w a r ɖ ʌ r o b b a ʈ ʌ
+वार्डरोबमा	custom	w a r ɖ ʌ r o b m a
+वार्डरोबलाई	custom	w a r ɖ ʌ r o b l a i
+वार्डरोबले	custom	w a r ɖ ʌ r o b l e
+वार्डरोबहरू	custom	w a r ɖ ʌ r o b ɦ ʌ r u
+वार्डल	custom	w a r ɖ ʌ l
+वार्डलको	custom	w a r ɖ ʌ l k o
+वार्डलद्वारा	custom	w a r ɖ ʌ l ʌ d̪ w a r a
+वार्डललाई	custom	w a r ɖ ʌ l l a i
+वार्डलले	custom	w a r ɖ ʌ l l e
+वार्डलाले	custom	w a r ɖ ʌ l a l e
+वार्डली	custom	w a r ɖ ʌ l i
+वार्डलॉ	custom	w a r ɖ ʌ l
+वार्डलो	custom	w a r ɖ ʌ l o
+वार्डलोले	custom	w a r ɖ ʌ l o l e
+वार्डवेल	custom	w a r ɖ ʌ w e l
+वार्डसँगै	custom	w a r ɖ ʌ s ʌ̃ g ʌi
+वार्डसहित	custom	w a r ɖ ʌ s ʌ ɦ i t̪
+वार्डसिप	custom	w a r ɖ ʌ s i p
+वार्डसिपको	custom	w a r ɖ ʌ s i p k o
+वार्डसिपमा	custom	w a r ɖ ʌ s i p m a
+वार्डहरूः	custom	w a r ɖ ʌ ɦ ʌ r u ɦ
+वार्डहरूद्वारा	custom	w a r ɖ ʌ ɦ ʌ r u d̪ w a r a
+वार्डियन	custom	w a r ɖ i j ʌ n
+वार्डिल	custom	w a r ɖ i l
+वार्डिस	custom	w a r ɖ i s
+वार्डी	custom	w a r ɖ i
+वार्डीको	custom	w a r ɖ i k o
+वार्डीलाई	custom	w a r ɖ i l a i
+वार्डीले	custom	w a r ɖ i l e
+वार्डे	custom	w a r ɖ e
+वार्डेन	custom	w a r ɖ e n
+वार्डेनक्लिफ	custom	w a r ɖ e n ʌ k l i pʰ
+वार्डेनबर्ग	custom	w a r ɖ e n ʌ b ʌ r g ʌ
+वार्डेनिस	custom	w a r ɖ e n i s
+वार्डेन्सिप	custom	w a r ɖ e n s i p
+वार्डेल	custom	w a r ɖ e l
+वार्डेलको	custom	w a r ɖ e l k o
+वार्डेलद्वारा	custom	w a r ɖ e l ʌ d̪ w a r a
+वार्डेललाई	custom	w a r ɖ e l l a i
+वार्डेलले	custom	w a r ɖ e l l e
+वार्डेले	custom	w a r ɖ e l e
+वार्डो	custom	w a r ɖ o
+वार्डोर	custom	w a r ɖ o r
+वार्डोरको	custom	w a r ɖ o r k o
+वार्डोरले	custom	w a r ɖ o r l e
+वार्ड्रप	custom	w a r ɖ r ʌ p
+वार्ड्रपको	custom	w a r ɖ r ʌ p k o
+वार्ड्स	custom	w a r ɖ s ʌ
+वालपेपर	rival	w a l p e p ʌ r
+वालपेपरको	custom	w a l p e p ʌ r k o
+वालमार्ट	custom	w a l ʌ m a r ʈ ʌ
+वालमार्टद्वारा	custom	w a l ʌ m a r ʈ ʌ d̪ w a r a
 वास्तविकता	audio	b a s t̪ ʌ w i k t̪ a
 वास्तविकतालाई	audio	b a s t̪ ʌ w i k t̪ a l a i
 विकको	audio	b i k ʌ k o
@@ -1151,6 +1372,9 @@ word	decision	phonemes
 विकले	audio	b i k ʌ l e
 विकासबारे	audio	b i k a s b a r e
 विकिको	custom	w i k i k o
+विकिपिडिया	custom	w i k i p i ɖ i j a
+विकिपिडियाः	custom	w i k i p i ɖ i j a ɦ
+विकिपिडियाअनुसार	custom	w i k i p i ɖ i j a ʌ n u s a r
 विकी	custom	w i k i
 विखण्डनको	audio	b i kʰ ʌ n ɖ ʌ n ʌ k o
 विजय	audio	b i dz ʌ j
@@ -1163,6 +1387,9 @@ word	decision	phonemes
 विद्युतगृह	audio	b i d̪ j u t̪ g r i ɦ ʌ
 विनय	audio	b i n ʌ j
 विनासकारी	audio	b i n a s k a r i
+विन्डोज	custom	w i n ɖ o dz
+विन्डोजद्वारा	custom	w i n ɖ o dz ʌ d̪ w a r a
+विन्डोजहरूद्वारा	custom	w i n ɖ o dz ʌ ɦ ʌ r u d̪ w a r a
 विराटनगर	wiktionary	b i r a ʈ n ʌ g ʌ r
 विवेकमाथि	audio	b i w e k m a t̪ʰ i
 विवेकशील	audio	b i w e k s i l
@@ -1180,16 +1407,220 @@ word	decision	phonemes
 विषयहरूलाई	audio	b i s ʌ j ɦ ʌ r u l a i
 वीर	audio	b i r ʌ
 वीरगन्ज	audio	b i r ʌ g ʌ n dz
-वेबसाइट	audio	b e b s a i ʈ
-वेबसाइटका	audio	b e b s a i ʈ k a
-वेबसाइटको	audio	b e b s a i ʈ k o
-वेबसाइटबाट	audio	b e b s a i ʈ b a ʈ ʌ
-वेबसाइटमा	audio	b e b s a i ʈ m a
-वेबसाइटलाई	audio	b e b s a i ʈ l a i
-वेबसाइटले	audio	b e b s a i ʈ l e
-वेबसाइटहरु	audio	b e b s a i ʈ ʌ ɦ ʌ r u
-वेलनेसले	audio	b e l ʌ n e s ʌ l e
+वेब	custom	w e b
+वेबः	custom	w e b ɦ
+वेबअ्याप	custom	w e b ʌ ʌ j a p
+वेबआरटीसी	custom	w e b ʌ a r ʌ ʈ i s i
+वेबएम	custom	w e b ʌ e m
+वेबएमडी	custom	w e b ʌ e m ʌ ɖ i
+वेबएसेम्बली	custom	w e b ʌ e s e m b ʌ l i
+वेबकमिक	custom	w e b ʌ k ʌ m i k
+वेबकमिकका	custom	w e b ʌ k ʌ m i k k a
+वेबकमिकको	custom	w e b ʌ k ʌ m i k k o
+वेबकमिकमा	custom	w e b ʌ k ʌ m i k m a
+वेबकमिकलाई	custom	w e b ʌ k ʌ m i k l a i
+वेबकमिकले	custom	w e b ʌ k ʌ m i k l e
+वेबकमिक्स	custom	w e b ʌ k ʌ m i k s ʌ
+वेबकमिक्सका	custom	w e b ʌ k ʌ m i k s ʌ k a
+वेबकमिक्सको	custom	w e b ʌ k ʌ m i k s ʌ k o
+वेबकमिक्समा	custom	w e b ʌ k ʌ m i k s ʌ m a
+वेबकमिक्सहरू	custom	w e b ʌ k ʌ m i k s ʌ ɦ ʌ r u
+वेबकास्ट	custom	w e b ʌ k a s ʈ ʌ
+वेबकास्टको	custom	w e b ʌ k a s ʈ ʌ k o
+वेबकास्टमा	custom	w e b ʌ k a s ʈ ʌ m a
+वेबकास्टर	custom	w e b ʌ k a s ʈ ʌ r
+वेबकास्टहरू	custom	w e b ʌ k a s ʈ ʌ ɦ ʌ r u
+वेबकास्टिङ	custom	w e b ʌ k a s ʈ i ŋ
+वेबकिट	custom	w e b ʌ k i ʈ
+वेबकैम	custom	w e b ʌ k ʌi m
+वेबकॉमिक	custom	w e b ʌ k ʌ m i k
+वेबकोर	custom	w e b ʌ k o r
+वेबक्ट	custom	w e b ʌ k ʈ ʌ
+वेबक्याप	custom	w e b ʌ k j a p
+वेबक्याम	custom	w e b ʌ k j a m
+वेबक्यामको	custom	w e b ʌ k j a m k o
+वेबक्याममा	custom	w e b ʌ k j a m m a
+वेबक्यामहरू	custom	w e b ʌ k j a m ɦ ʌ r u
+वेबक्वेस्ट	custom	w e b ʌ k w e s ʈ ʌ
+वेबजिन	custom	w e b ʌ dz i n
+वेबजिनका	custom	w e b ʌ dz i n k a
+वेबजिनको	custom	w e b ʌ dz i n k o
+वेबजिनले	custom	w e b ʌ dz i n l e
+वेबटिभी	custom	w e b ʌ ʈ i bʱ i
+वेबटुन	custom	w e b ʌ ʈ u n
+वेबटून	custom	w e b ʌ ʈ u n
+वेबटूनको	custom	w e b ʌ ʈ u n k o
+वेबटूनमा	custom	w e b ʌ ʈ u n m a
+वेबडाभ	custom	w e b ʌ ɖ a bʱ
+वेबडेन	custom	w e b ʌ ɖ e n ʌ
+वेबडेभ	custom	w e b ʌ ɖ e bʱ
+वेबद्वारा	custom	w e b ʌ d̪ w a r a
+वेबपी	custom	w e b ʌ p i
+वेबपृष्ठ	custom	w e b ʌ p r i s ʈʰ ʌ
+वेबपृष्ठको	custom	w e b ʌ p r i s ʈʰ ʌ k o
+वेबपृष्ठमा	custom	w e b ʌ p r i s ʈʰ ʌ m a
+वेबपृष्ठले	custom	w e b ʌ p r i s ʈʰ ʌ l e
+वेबपृष्ठहरू	custom	w e b ʌ p r i s ʈʰ ʌ ɦ ʌ r u
+वेबपृष्ठहरूको	custom	w e b ʌ p r i s ʈʰ ʌ ɦ ʌ r u k o
+वेबपृष्ठहरूमा	custom	w e b ʌ p r i s ʈʰ ʌ ɦ ʌ r u m a
+वेबपेज	custom	w e b ʌ p e dz
+वेबपेजका	custom	w e b ʌ p e dz k a
+वेबपेजको	custom	w e b ʌ p e dz k o
+वेबपेजबाट	custom	w e b ʌ p e dz b a ʈ ʌ
+वेबपेजमा	custom	w e b ʌ p e dz m a
+वेबपेजले	custom	w e b ʌ p e dz l e
+वेबपेजहरू	custom	w e b ʌ p e dz ɦ ʌ r u
+वेबफुट	custom	w e b ʌ pʰ u ʈ
+वेबब	custom	w e b ʌ b
+वेबबजेक्ट्स	custom	w e b ʌ b ʌ dz e k ʈ s ʌ
+वेबबिङ	custom	w e b ʌ b i ŋ
+वेबबिङको	custom	w e b ʌ b i ŋ k o
+वेबबी	custom	w e b ʌ b i
+वेबबीः	custom	w e b ʌ b i ɦ
+वेबबे	custom	w e b ʌ b e
+वेबबेड	custom	w e b ʌ b e ɖ
+वेबब्जेक्टहरू	custom	w e b ʌ b dz e k ʈ ʌ ɦ ʌ r u
+वेबब्जेक्ट्स	custom	w e b ʌ b dz e k ʈ s ʌ
+वेबभरि	custom	w e b ʌ bʱ ʌ r i
+वेबमास्टर	custom	w e b ʌ m a s ʈ ʌ r
+वेबमास्टरको	custom	w e b ʌ m a s ʈ ʌ r k o
+वेबमास्टरले	custom	w e b ʌ m a s ʈ ʌ r l e
+वेबमास्टरहरूलाई	custom	w e b ʌ m a s ʈ ʌ r ɦ ʌ r u l a i
+वेबमास्टरहरूले	custom	w e b ʌ m a s ʈ ʌ r ɦ ʌ r u l e
+वेबमेट्रिक्स	custom	w e b ʌ m e ʈ r i k s ʌ
+वेबमेल	custom	w e b ʌ m e l
+वेबर	custom	w e b ʌ r
+वेबरः	custom	w e b ʌ r ɦ
+वेबरका	custom	w e b ʌ r k a
+वेबरकी	custom	w e b ʌ r k i
+वेबरको	custom	w e b ʌ r k o
+वेबरद्वारा	custom	w e b ʌ r ʌ d̪ w a r a
+वेबरबाट	custom	w e b ʌ r b a ʈ ʌ
+वेबरभन्दा	custom	w e b ʌ r bʱ ʌ n d̪ a
+वेबरमा	custom	w e b ʌ r m a
+वेबरलाई	custom	w e b ʌ r l a i
+वेबरले	custom	w e b ʌ r l e
+वेबरसँग	custom	w e b ʌ r s ʌ̃ g ʌ
+वेबरहरू	custom	w e b ʌ r ɦ ʌ r u
+वेबर्न	custom	w e b ʌ r n ʌ
+वेबर्नका	custom	w e b ʌ r n ʌ k a
+वेबर्नको	custom	w e b ʌ r n ʌ k o
+वेबर्नमा	custom	w e b ʌ r n ʌ m a
+वेबर्नले	custom	w e b ʌ r n ʌ l e
+वेबल	custom	w e b ʌ l
+वेबलग	custom	w e b ʌ l ʌ g
+वेबलगमा	custom	w e b ʌ l ʌ g m a
+वेबलगहरू	custom	w e b ʌ l ʌ g ɦ ʌ r u
+वेबवर्म	custom	w e b ʌ w ʌ r m ʌ
+वेबस	custom	w e b ʌ s
+वेबसाइट	custom	w e b s a i ʈ
+वेबसाइटः	custom	w e b ʌ s a i ʈ ɦ
+वेबसाइटअनुसार	custom	w e b ʌ s a i ʈ ʌ ʌ n u s a r
+वेबसाइटका	custom	w e b s a i ʈ k a
+वेबसाइटको	custom	w e b s a i ʈ k o
+वेबसाइटद्वारा	custom	w e b ʌ s a i ʈ ʌ d̪ w a r a
+वेबसाइटबाट	rival	w e b s a i ʈ b a ʈ ʌ
+वेबसाइटबाटः	custom	w e b ʌ s a i ʈ ʌ b a ʈ ɦ
+वेबसाइटभित्र	custom	w e b ʌ s a i ʈ ʌ bʱ i t̪ r ʌ
+वेबसाइटमा	rival	w e b s a i ʈ m a
+वेबसाइटमार्फत	custom	w e b ʌ s a i ʈ ʌ m a r pʰ ʌ t̪
+वेबसाइटलाई	custom	w e b s a i ʈ l a i
+वेबसाइटले	custom	w e b s a i ʈ l e
+वेबसाइटसहित	custom	w e b ʌ s a i ʈ ʌ s ʌ ɦ i t̪
+वेबसाइटहरु	custom	w e b s a i ʈ ʌ ɦ ʌ r u
+वेबसाइटहरूः	custom	w e b ʌ s a i ʈ ʌ ɦ ʌ r u ɦ
+वेबसाइटहरूद्वारा	custom	w e b ʌ s a i ʈ ʌ ɦ ʌ r u d̪ w a r a
+वेबसेसन	custom	w e b ʌ s e s ʌ n
+वेबसोडहरू	custom	w e b ʌ s o ɖ ɦ ʌ r u
+वेबसोडहरूको	custom	w e b ʌ s o ɖ ɦ ʌ r u k o
+वेबसोडहरूमा	custom	w e b ʌ s o ɖ ɦ ʌ r u m a
+वेबसोड्स	custom	w e b ʌ s o ɖ s ʌ
+वेबस्टर	custom	w e b ʌ s ʈ ʌ r
+वेबस्टरः	custom	w e b ʌ s ʈ ʌ r ɦ
+वेबस्टरका	custom	w e b ʌ s ʈ ʌ r k a
+वेबस्टरकी	custom	w e b ʌ s ʈ ʌ r k i
+वेबस्टरको	custom	w e b ʌ s ʈ ʌ r k o
+वेबस्टरद्वारा	custom	w e b ʌ s ʈ ʌ r ʌ d̪ w a r a
+वेबस्टरबाट	custom	w e b ʌ s ʈ ʌ r b a ʈ ʌ
+वेबस्टरमा	custom	w e b ʌ s ʈ ʌ r m a
+वेबस्टरलाई	custom	w e b ʌ s ʈ ʌ r l a i
+वेबस्टरले	custom	w e b ʌ s ʈ ʌ r l e
+वेबस्टरसँग	custom	w e b ʌ s ʈ ʌ r s ʌ̃ g ʌ
+वेबस्टोर	custom	w e b ʌ s ʈ o r
+वेबस्टोरमा	custom	w e b ʌ s ʈ o r m a
+वेबस्ट्रीम	custom	w e b ʌ s ʈ r i m
+वेबस्फेयर	custom	w e b ʌ s pʰ e j ʌ r
+वेबाट	custom	w e b a ʈ
+वेबिङ	custom	w e b i ŋ
+वेबिङको	custom	w e b i ŋ k o
+वेबिट	custom	w e b i ʈ
+वेबिनार	custom	w e b i n a r
+वेबिनारमा	custom	w e b i n a r m a
+वेबिनारहरू	custom	w e b i n a r ɦ ʌ r u
+वेबिनारहरूको	custom	w e b i n a r ɦ ʌ r u k o
+वेबिल	custom	w e b i l
+वेबिलहरू	custom	w e b i l ɦ ʌ r u
+वेबी	custom	w e b i
+वेबुल	custom	w e b u l
+वेबे	custom	w e b e
+वेबेक्स	custom	w e b e k s ʌ
+वेबेरियन	custom	w e b e r i j ʌ n
+वेबेरी	custom	w e b e r i
+वेबेल	custom	w e b e l
+वेबेले	custom	w e b e l e
+वेबेलोस	custom	w e b e l o s
+वेबोज	custom	w e b o dz
+वेबोर्न	custom	w e b o r n ʌ
+वेबोस	custom	w e b o s
+वेब्ड	custom	w e b ɖ ʌ
+वेब्याक	custom	w e b j a k
+वेब्रिज	custom	w e b r i dz
+वेब्ली	custom	w e b l i
+वेब्लीले	custom	w e b l i l e
+वेब्ले	custom	w e b l e
+वेब्स्टर	custom	w e b s ʈ ʌ r
+वेलनेस	custom	w e l ʌ n e s
+वेलनेसले	custom	w e l ʌ n e s ʌ l e
+वेलिङ्टन	custom	w e l i ŋ ʈ ʌ n
+वेल्स	custom	w e l s ʌ
+वेल्सः	custom	w e l s ʌ ɦ
+वेल्सद्वारा	custom	w e l s ʌ d̪ w a r a
+वेल्सपुल	custom	w e l s ʌ p u l
+वेल्सपुलको	custom	w e l s ʌ p u l k o
+वेल्सपुलमा	custom	w e l s ʌ p u l m a
+वेल्सफोर्ड	custom	w e l s ʌ pʰ o r ɖ ʌ
+वेल्सबर्ग	custom	w e l s ʌ b ʌ r g ʌ
+वेल्सबाख	custom	w e l s ʌ b a kʰ
+वेल्सबिच	custom	w e l s ʌ b i ts
+वेल्सबिचको	custom	w e l s ʌ b i ts k o
+वेल्सबी	custom	w e l s ʌ b i
+वेल्सबीले	custom	w e l s ʌ b i l e
+वेल्सबोरो	custom	w e l s ʌ b o r o
+वेल्सबोर्न	custom	w e l s ʌ b o r n ʌ
+वेल्सभरि	custom	w e l s ʌ bʱ ʌ r i
+वेल्सभित्र	custom	w e l s ʌ bʱ i t̪ r ʌ
+वेल्सभिल	custom	w e l s ʌ bʱ i l
+वेल्सभिलको	custom	w e l s ʌ bʱ i l k o
+वेल्सभिलमा	custom	w e l s ʌ bʱ i l m a
+वेल्समाथि	custom	w e l s ʌ m a t̪ʰ i
+वेल्सम्यान	custom	w e l s ʌ m j a n
+वेल्सर	custom	w e l s ʌ r
+वेल्सली	custom	w e l s ʌ l i
+वेल्सवर्थ	custom	w e l s ʌ w ʌ r t̪ʰ ʌ
+वेल्सविरुद्ध	custom	w e l s ʌ w i r u d̪ d̪ʱ ʌ
+वेल्ससहित	custom	w e l s ʌ s ʌ ɦ i t̪
+वेल्सेर	custom	w e l s e r ʌ
+वेल्स्ली	custom	w e l s l i
+वेल्स्लीको	custom	w e l s l i k o
+वेल्स्लीले	custom	w e l s l i l e
+वेल्स्ले	custom	w e l s l e
 वेवसाइट	audio	b e w s a i ʈ
+वेस्टमिनिस्टर	custom	w e s ʈ ʌ m i n i s ʈ ʌ r
+वेस्टर्न	custom	w e s ʈ ʌ r n ʌ
+वेस्टर्नद्वारा	custom	w e s ʈ ʌ r n ʌ d̪ w a r a
+वेस्टर्नपोर्ट	custom	w e s ʈ ʌ r n ʌ p o r ʈ ʌ
+वेस्टर्नर्स	custom	w e s ʈ ʌ r n ʌ r s ʌ
+वेस्टर्नहेगन	custom	w e s ʈ ʌ r n ʌ ɦ e g ʌ n
 वैद्यको	audio	b ʌi d̪ j k o
 वैध	audio	b ʌi d̪ʱ ʌ
 व्यवसाय	audio	b j ʌ w ʌ s a j
@@ -1205,6 +1636,7 @@ word	decision	phonemes
 शमशेर	audio	s ʌ m s e r ʌ
 शरणार्थीको	audio	s ʌ r n a r t̪ʰ i k o
 शवहरूको	audio	s ʌ w ʌ ɦ ʌ r u k o
+शाक्यले	audio	s a k j l e
 शासनकालमा	audio	s a s ʌ n k a l m a
 शिक्षकशिक्षिकाले	audio	s i k tsʰ ʌ k s i k tsʰ i k a l e
 शिक्षण	rival	s i k tsʰ ʌ n ʌ
@@ -1330,6 +1762,7 @@ word	decision	phonemes
 साउनसम्म	audio	s a u n s ʌ m m ʌ
 साक्षरता	audio	s a k tsʰ ʌ r t̪ a
 सामानबारे	audio	s a m a n b a r e
+सामान्य	audio	s a m a n j
 सायरा	audio	s a j r a
 सार्वजनिक	rival	s a r w ʌ dz n i k
 सालतिरै	audio	s a l t̪ i r ʌi
@@ -1395,6 +1828,7 @@ word	decision	phonemes
 हजुरबाको	audio	ɦ ʌ dz u r b a k o
 हजुरबाले	audio	ɦ ʌ dz u r b a l e
 हजुरबुवाले	audio	ɦ ʌ dz u r b u w a l e
+हतारहतार	audio	ɦ ʌ t̪ a r ʌ ɦ ʌ t̪ a r ʌ
 हतियार	audio	ɦ ʌ t̪ i j a r ʌ
 हरिवंश	audio	ɦ ʌ r i w ʌ̃ s ʌ
 हल्स	audio	ɦ ʌ l s

@@ -76,8 +76,11 @@ def ipa_to_ours(ipa: str) -> list[str]:
 
     Notation only, never pronunciation: ɾ -> r, dʰ gʰ bʰ -> d̪ʱ gʱ bʱ, plain t d -> dental t̪ d̪,
     a plain h right after a stop -> aspiration (sathi -> s a t̪ʰ i), h elsewhere -> ɦ, stress and
-    length marks dropped (the same mapping as espeak_to_ours)."""
-    return espeak_to_ours(re.sub(r"(?<=[kgtdpbʈɖ])h", "ʰ", _nfd(ipa)))
+    length marks dropped (the same mapping as espeak_to_ours); a nasalized diphthong written with
+    the tilde on its first part (ʌ̃i, ʌ̃u) is our ʌĩ, ʌũ."""
+    s = re.sub(r"(?<=[kgtdpbʈɖ])h", "ʰ", _nfd(ipa))
+    s = re.sub(f"ʌ{NASAL}([iu])", f"ʌ\\1{NASAL}", s)
+    return espeak_to_ours(s)
 
 
 def load_sentences(path: Path, basis: str = "sentences") -> tuple[list[tuple[str, str, list[str]]], list[dict]]:
@@ -118,6 +121,20 @@ def parse_sentences(text: str, basis: str = "sentences") -> tuple[list[tuple[str
         if ok:
             rows += [(w, basis, v[0]) for w, v in zip(words, variants)]
     return rows, sentences
+
+
+def dual_words(sentences: list[dict]) -> dict[str, dict[str, list[str]]]:
+    """Words a sentence ground truth pronounces in more than one way depending on the sentence
+    (दिन d̪ i n / d̪ i n ʌ): word -> {pronunciation: [sentences where it is used]}. Word-by-word
+    phonemizers can only give one of them."""
+    seen: dict[str, dict[str, list[str]]] = {}
+    for s in sentences:
+        if s["ok"]:
+            for w, v in zip(s["words"], s["variants"]):
+                if w.isascii():  # digits the text left as numerals
+                    continue
+                seen.setdefault(w, {}).setdefault(" ".join(v[0]), []).append(s["sentence"])
+    return {w: forms for w, forms in seen.items() if len(forms) > 1}
 
 
 def alternatives_of(sentences: list[dict]) -> dict[str, list[list[str]]]:

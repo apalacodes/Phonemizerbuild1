@@ -32,7 +32,10 @@ def main() -> None:
     shutil.copy(APALAS / "app.py", out / "app.py")
     export_benchmark(out)
     (out / "benchmark.tsv").rename(out / "ground_truth.tsv")
-    shutil.copy(ROOT / "data" / "ground_truth_sentences.tsv", out / "ground_truth_sentences.tsv")
+    for gt in sorted((ROOT / "data").glob("ground_truth*sentences.tsv")):  # every sentence ground truth
+        shutil.copy(gt, out / gt.name)
+    if (ROOT / "data" / "dual_words.tsv").exists():
+        shutil.copy(ROOT / "data" / "dual_words.tsv", out / "dual_words.tsv")
     test = (HERE / "test.py").read_text(encoding="utf-8")
     for old, new in [('"benchmark.tsv"', '"ground_truth.tsv"'), ("benchmark.tsv", "ground_truth.tsv"),
                      ('_check("benchmark', '_check("ground truth'), ("benchmark: {", "ground truth: {")]:

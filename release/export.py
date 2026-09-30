@@ -166,15 +166,24 @@ def letter_table() -> str:
     return "\n".join(out)
 
 
+KEEP = {".git", ".venv", "models"}  # history, the uv environment and the downloaded Kokoro voice survive exports
+
+
 def clean_out(out: Path) -> Path:
-    """Empty the export folder (keeping .git); refuse a folder that is not an earlier export."""
+    """Empty the export folder (keeping KEEP); refuse a folder that is not an earlier export.
+    The voice is linked in from the workshop (models/kokoro) when the folder has none, so it is
+    never downloaded twice."""
     out = out.resolve()
     if out.exists() and any(out.iterdir()) and not (out / "deephoneme").is_dir():
         sys.exit(f"{out} exists and is not a deephoneme export; refusing to overwrite")
     out.mkdir(parents=True, exist_ok=True)
     for p in out.iterdir():
-        if p.name != ".git":
-            shutil.rmtree(p) if p.is_dir() else p.unlink()
+        if p.name not in KEEP:
+            shutil.rmtree(p) if p.is_dir() and not p.is_symlink() else p.unlink()
+    voice = out / "models" / "kokoro"
+    if not voice.exists() and (ROOT / "models" / "kokoro" / "kokoro-v1.0.onnx").exists():
+        voice.parent.mkdir(exist_ok=True)
+        voice.symlink_to(ROOT / "models" / "kokoro")
     return out
 
 

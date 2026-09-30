@@ -94,6 +94,7 @@ word	phonemes	hybrid	basis	espeak_agrees	wiktionary
 अल्छि	ʌ l tsʰ i	ˈʌlcʰɪ	agree	yes	[ʌl̻t͡sʰi]
 अल्छी	ʌ l tsʰ i	ˈʌlcʰi	agree	yes	[ʌl̻t͡sʰi]
 अल्ट्रासाउण्ड	ʌ l ʈ r a s a u n ɖ	ˌəlʈɾaːsaːˈʊnɖ	audio	no	
+अल्पकालीन	ʌ l p ʌ k a l i n ʌ	ˌəlpəkaːlˈɪːnˌə	audio	no	
 अल्सि	ʌ l s i	ˈʌlsɪ	agree	yes	[ʌlsi] / [ʌl̻t͡sʰi]
 अल्सी	ʌ l s i	ˈʌlsi	agree	yes	[ʌlsi]
 अवश्य	ʌ w ʌ s j	əwˈʌsj	audio	no	
@@ -235,6 +236,7 @@ word	phonemes	hybrid	basis	espeak_agrees	wiktionary
 उद्योगहरूले	u d̪ j o g ʌ ɦ ʌ r u l e	ˌʊdjoːɡˌəhəɾˈuːleː	audio	yes	
 उनका	u n k a	ˈʊnkˌaː	owner	no	
 उनकै	u n k ʌi	ˈʊnkˌai	audio	no	
+उनको	u n ʌ k o	ˈʊnəkˌoː	audio	yes	
 उनतीस	u n t̪ i s	ˌʊntˈɪːs	owner	no	[unʌt̪is]
 उनन्चालीस	u n ʌ n ts a l i s	ˌʊnəncaːlˈɪːs	agree	yes	[unʌn̻t͡sälis]
 उनन्चास	u n ʌ n ts a s	ˌʊnəncˈaːs	agree	yes	[unʌn̻t͡säs]
@@ -304,7 +306,7 @@ word	phonemes	hybrid	basis	espeak_agrees	wiktionary
 एक	e k	ˈeːk	agree	no	[ek]
 एकचालीस	e k ts a l i s	ˌeːkcaːlˈɪːs	audio	no	[ekt͡sälis]
 एकछिन	e k tsʰ i n	ˈeːkcʰˌɪn	audio	no	
-एकछिनपछि	e k tsʰ i n ʌ p ʌ tsʰ i	ˈeːkcʰˌɪnəpˌəcʰɪ	audio	no	
+एकछिनपछि	e k tsʰ i n p ʌ tsʰ i	ˈeːkcʰˌɪnpˌəcʰɪ	owner	no	
 एकछिनमा	e k tsʰ i n m a	ˈeːkcʰˌɪnmˌaː	audio	no	
 एकजुट	e k dz u ʈ	ˈeːkɟˌuʈ	audio	no	
 एकतीस	e k t̪ i s	ˌeːktˈɪːs	audio	no	[ek̚t̪is]
@@ -559,6 +561,7 @@ word	phonemes	hybrid	basis	espeak_agrees	wiktionary
 केराउ	k e r a u	keːɾˈaːʊ	agree	yes	[keɾäu̯]
 केलाई	k e l a i	keːlˈaːi	agree	yes	[keläi̯]
 केले	k e l e	kˈeːleː	agree	yes	[kele]
+केवल	k e w ʌ l ʌ	kˈeːwəlˌə	audio	no	
 केही	k e ɦ i	kˈeːhi	agree	yes	[kei̯] / [keɦi]
 केहीबेर	k e ɦ i b e r	kˌeːhɪːbˈeːɾ	audio	no	
 केहीबेरमा	k e ɦ i b e r m a	kˌeːhɪːbˈeːɾmˌaː	audio	no	
@@ -697,7 +700,7 @@ word	phonemes	hybrid	basis	espeak_agrees	wiktionary
 गराउनु	g ʌ r a u n u	ɡəɾˈaːʊnˌu	agree	yes	[ɡʌɾäu̯nu]
 गराउने	g ʌ r a u n e	ɡəɾˈaːʊnˌeː	agree	yes	[ɡʌɾäu̯ne]
 गरि	g ʌ r i	ɡˈʌɾɪ	agree	yes	[ɡʌɾi]
-गरिरहेका	g ʌ r i r ɦ e k a	ɡˌəɾɪɾhˈeːkaː	owner	no	
+गरिरहेका	g ʌ r i r ʌ ɦ e k a	ɡˌəɾɪɾəhˈeːkaː	owner	yes	
 गरिरहेकी	g ʌ r i r ɦ e k i	ɡˌəɾɪɾhˈeːki	audio	no	
 गरिरहेकै	g ʌ r i r ɦ e k ʌi	ɡˌəɾɪɾhˈeːkai	audio	no	
 गरिरहेको	g ʌ r i r ʌ ɦ e k o	ɡˌəɾɪɾəhˈeːkoː	owner	yes	
@@ -765,6 +768,7 @@ word	phonemes	hybrid	basis	espeak_agrees	wiktionary
 गोरखापत्रमा	g o r kʰ a p ʌ t̪ r ʌ m a	ɡˌoːɾkʰaːpˈʌtɾəmˌaː	audio	no	
 गोरु	g o r u	ɡˈoːɾu	agree	yes	[ɡoɾu]
 गोर्खा	g o r kʰ a	ɡˈoːɾkʰaː	agree	no	[ɡorkʰä]
+गोल	g o l ʌ	ɡˈoːlˌə	audio	no	
 गोलभेडा	g o l bʱ e ɖ a	ɡˌoːlbʰˈeːɖaː	audio	no	
 गोलीमार	g o l i m a r ʌ	ɡˌoːlɪːmˈaːɾˌə	audio	yes	
 गोलो	g o l o	ɡˈoːloː	agree	yes	[ɡolo]
@@ -946,7 +950,7 @@ word	phonemes	hybrid	basis	espeak_agrees	wiktionary
 छिटपुटरुपमा	tsʰ i ʈ p u ʈ ʌ r u p m a	cʰˈɪʈpˌuʈəɾˌupmˌaː	audio	no	
 छिटो	tsʰ i ʈ o	cʰˈɪʈoː	agree	yes	[t͡sʰiʈo]
 छिट्टो	tsʰ i ʈ ʈ o	cʰˈɪʈʈˌoː	agree	yes	[t͡sʰiʈ̚ʈo]
-छिन	tsʰ i n	cʰˈɪn	agree	yes	[t͡sʰin] / [t͡sʰinʌ]
+छिन	tsʰ i n ʌ	cʰˈɪnˌə	owner	no	[t͡sʰin] / [t͡sʰinʌ]
 छिनो	tsʰ i n o	cʰˈɪnoː	agree	yes	[t͡sʰino]
 छिन्नु	tsʰ i n n u	cʰˈɪnnˌu	agree	no	[t͡sʰinːu]
 छिप्पिन	tsʰ i p p i n ʌ	cʰˈɪppˌɪnˌə	audio	no	
@@ -1122,6 +1126,7 @@ word	phonemes	hybrid	basis	espeak_agrees	wiktionary
 ट्याबलेट	ʈ j a b l e ʈ	ʈjˌaːblˈeːʈ	audio	no	
 ट्राफिक	ʈ r a pʰ i k ʌ	ʈɾˈaːpʰɪkˌə	audio	yes	
 ट्रिटमेन्ट	ʈ r i ʈ m e n ʈ ʌ	ʈɾˌɪʈmˈeːnʈˌə	audio	no	
+ट्रेड	ʈ r e ɖ ʌ	ʈɾˈeːɖˌə	audio	no	
 ट्रेडमार्क	ʈ r e ɖ m a r k ʌ	ʈɾˌeːɖmˈaːɾkˌə	audio	no	
 ट्रेडमार्कमा	ʈ r e ɖ m a r k ʌ m a	ʈɾˌeːɖmˈaːɾkəmˌaː	audio	no	
 ट्रेन	ʈ r e n	ʈɾˈeːn	owner	yes	
@@ -1170,7 +1175,8 @@ word	phonemes	hybrid	basis	espeak_agrees	wiktionary
 डेटासेन्टर	ɖ e ʈ a s e n ʈ ʌ r ʌ	ɖˌeːʈaːsˈeːnʈəɾˌə	audio	yes	
 डेलिभरी	ɖ e l i bʱ r i	ɖˈeːlɪbʰɾˌi	audio	no	
 ड्याङ्ङ	ɖ j a ŋ ŋ ʌ	ɖjˈaːŋŋˌə	audio	no	
-ड्रोन	ɖ r o n ʌ	ɖɾˈoːnˌə	audio	no	
+ड्रोन	ɖ r o n	ɖɾˈoːn	owner	yes	
+ढलको	ɖʱ ʌ l ʌ k o	ɖʰˈʌləkˌoː	audio	yes	
 ढल्नु	ɖʱ ʌ l n u	ɖʰˈʌlnˌu	agree	no	[ɖʱʌ̤lnu]
 ढाँचा	ɖʱ ã ts a	ɖʰãcˈaː	agree	yes	[ɖʱä̤̃t͡sä]
 ढाका	ɖʱ a k a	ɖʰˈaːkaː	agree	yes	[ɖʱä̤kä]
@@ -1363,6 +1369,7 @@ word	phonemes	hybrid	basis	espeak_agrees	wiktionary
 दूतावास	d̪ u t̪ a b a s	dˌuːtaːbˈaːs	owner	no	[d̪ut̪äbäs]
 दूरगामी	d̪ u r g a m i	dˌuːɾɡˈaːmi	audio	no	
 दूरतामा	d̪ u r t̪ a m a	dˌuːɾtˈaːmaː	audio	no	
+दृश्यहरू	d̪ r i s j ɦ ʌ r u	dɾˈɪsjhˌəɾuː	audio	no	
 दे	d̪ e	dˈeː	agree	yes	[d̪e]
 देउ	d̪ e u	dˈeːʊ	agree	yes	[d̪eu̯]
 देउखुरी	d̪ e u kʰ u r i	dˈeːʊkʰˌuɾi	agree	yes	[d̪eu̯k̞ʰuɾi]
@@ -1505,7 +1512,7 @@ word	phonemes	hybrid	basis	espeak_agrees	wiktionary
 नागरिक	n a g r i k	nˈaːɡɾˌɪk	audio	no	
 नागरिकका	n a g r i k k a	nˈaːɡɾˌɪkkˌaː	audio	no	
 नागरिकको	n a g r i k k o	nˈaːɡɾˌɪkkˌoː	audio	no	
-नागरिकता	n a g r i k ʌ t̪ a	nˈaːɡɾˌɪkətˌaː	audio	no	
+नागरिकता	n a g r i k t̪ a	nˈaːɡɾˌɪktˌaː	owner	no	
 नागरिकप्रति	n a g r i k ʌ p r ʌ t̪ i	nˌaːɡɾɪkˈʌpɾətˌɪ	audio	no	
 नागरिकबीचको	n a g r i k ʌ b i ts k o	nˌaːɡɾˌɪkəbˈɪːckˌoː	audio	no	
 नागरिकमाथि	n a g r i k ʌ m a t̪ʰ i	nˌaːɡɾˌɪkəmˈaːtʰɪ	audio	no	
@@ -1874,6 +1881,7 @@ word	phonemes	hybrid	basis	espeak_agrees	wiktionary
 बर्खा	b ʌ r kʰ a	bˈʌɾkʰaː	agree	no	[bʌrkʰä]
 बर्ग	b ʌ r g ʌ	bˈʌɾɡˌə	agree	no	[bʌrɡʌ]
 बर्ष	b ʌ r s ʌ	bˈʌɾsˌə	agree	no	[bʌrsʌ]
+बल	b ʌ l ʌ	bˈʌlˌə	audio	no	
 बलिदान	b ʌ l i d̪ a n ʌ	bˌəlɪdˈaːnˌə	audio	no	
 बस	b ʌ s	bˈʌs	agree	yes	[bʌs] / [bʌsʌ]
 बसन्त	b ʌ s ʌ n t̪ ʌ	bəsˈʌntˌə	agree	yes	[bʌsʌn̪t̪ʌ]
@@ -2088,6 +2096,7 @@ word	phonemes	hybrid	basis	espeak_agrees	wiktionary
 भीडभाडबिना	bʱ i ɖ bʱ a ɖ ʌ b i n a	bʰˌɪːɖbʰˈaːɖəbˌɪnaː	audio	no	
 भीर	bʱ i r	bʰˈɪːɾ	owner	no	[bʱi̤ɾʌ]
 भुटान	bʱ u ʈ a n	bʰuʈˈaːn	agree	yes	[bʱṳʈän]
+भुटानका	bʱ u ʈ a n ʌ k a	bʰuʈˈaːnəkˌaː	audio	yes	
 भुटानमाथि	bʱ u ʈ a n m a t̪ʰ i	bʰˌuʈaːnmˈaːtʰɪ	audio	no	
 भुत्रो	bʱ u t̪ r o	bʰˈutɾoː	agree	yes	[bʱṳt̪ro]
 भुल्नु	bʱ u l n u	bʰˈulnˌu	agree	no	[bʱṳlnu]
@@ -2377,7 +2386,7 @@ word	phonemes	hybrid	basis	espeak_agrees	wiktionary
 राम्रो	r a m r o	ɾˈaːmɾoː	agree	yes	[rämro]
 राय	r a j	ɾˈaːj	audio	no	
 रायमा	r a j m a	ɾˈaːjmˌaː	audio	no	
-रायले	r a j l e	ɾˈaːjlˌeː	audio	no	
+रायले	r a j ʌ l e	ɾˈaːjəlˌeː	owner	yes	
 रारा	r a r a	ɾˈaːɾaː	agree	yes	[räɾä]
 राष्ट्र	r a s ʈ r ʌ	ɾˈaːsʈɾˌə	agree	yes	[räs̠t̠rʌ]
 राष्ट्रपति	r a s ʈ r ʌ p ʌ t̪ i	ɾˈaːsʈɾˌəpətˌɪ	agree	yes	[räs̠t̠rʌpʌt̪i]
@@ -2519,26 +2528,237 @@ word	phonemes	hybrid	basis	espeak_agrees	wiktionary
 ल्याबरेटोरी	l j a b r e ʈ o r i	ljˌaːbɾeːʈˈoːɾi	audio	no	
 ल्वाङ	l w a ŋ	lwˈaːŋ	agree	yes	[lwäŋ]
 वन	b ʌ n	bˈʌn	agree	no	[bʌn]
-वरपरका	b ʌ r ʌ p ʌ r ʌ k a	bˈʌɾəpˌəɾəkˌaː	audio	no	
+वरपरका	w ʌ r ʌ p ʌ r ʌ k a	wˈʌɾəpˌəɾəkˌaː	owner	yes	
 वरपरको	b ʌ r ʌ p ʌ r ʌ k o	bˈʌɾəpˌəɾəkˌoː	audio	no	
 वर्क	b ʌ r k	bˈʌɾk	audio	no	
 वर्ग	b ʌ r g ʌ	bˈʌɾɡˌə	agree	no	[bʌrɡʌ]
 वर्गीयले	b ʌ r g i j l e	bəɾɡˈɪːjlˌeː	audio	no	
 वर्णमाला	b ʌ r n ʌ m a l a	bˌəɾnəmˈaːlaː	agree	no	[bʌrɽ̃ʌmälä] / [bʌrnʌmälä]
-वर्ल्ड	b ʌ r l ɖ	bˈʌɾlɖ	audio	no	
+वर्ल्ड	w ʌ r l ɖ	wˈʌɾlɖ	owner	no	
+वर्ल्डः	w ʌ r l ɖ ʌ ɦ	wˈʌɾlɖəh	owner	no	
+वर्ल्डकन	w ʌ r l ɖ ʌ k ʌ n	wˈʌɾlɖəkˌən	owner	no	
+वर्ल्डकम	w ʌ r l ɖ ʌ k ʌ m	wˈʌɾlɖəkˌəm	owner	no	
+वर्ल्डक्याट	w ʌ r l ɖ ʌ k j a ʈ	wˌəɾlɖəkjˈaːʈ	owner	no	
+वर्ल्डद्वारा	w ʌ r l ɖ ʌ d̪ w a r a	wˌəɾlɖədwˈaːɾaː	owner	no	
+वर्ल्डनेटडेली	w ʌ r l ɖ ʌ n e ʈ ʌ ɖ e l i	wˌəɾlɖənˌeːʈəɖˈeːli	owner	no	
+वर्ल्डप्राइड	w ʌ r l ɖ ʌ p r a i ɖ	wˌəɾlɖəpɾˈaːɪɖ	owner	no	
+वर्ल्डफेस्ट	w ʌ r l ɖ ʌ pʰ e s ʈ ʌ	wˌəɾlɖəpʰˈeːsʈˌə	owner	no	
+वर्ल्डबिट	w ʌ r l ɖ ʌ b i ʈ	wˈʌɾlɖəbˌɪʈ	owner	no	
+वर्ल्डभिजन	w ʌ r l ɖ ʌ bʱ i dz ʌ n	wˈʌɾlɖəbʰˌɪɟən	owner	no	
+वर्ल्डभ्यु	w ʌ r l ɖ ʌ bʱ j u	wəɾlɖˈʌbʰjˌu	owner	no	
+वर्ल्डवाइड	w ʌ r l ɖ ʌ w a i ɖ	wˌəɾlɖəwˈaːɪɖ	owner	no	
+वर्ल्डवाच	w ʌ r l ɖ ʌ w a ts	wˌəɾlɖəwˈaːc	owner	no	
+वर्ल्ड्स	w ʌ r l ɖ s ʌ	wˈʌɾlɖsˌə	owner	no	
+वर्ल्ड्सः	w ʌ r l ɖ s ʌ ɦ	wˈʌɾlɖsəh	owner	no	
 वर्षा	b ʌ r s a	bˈʌɾsaː	agree	no	[bʌrsä]
 वसन्त	b ʌ s ʌ n t̪ ʌ	bəsˈʌntˌə	agree	no	[bʌsʌn̪t̪ʌ]
+वा	w a	wˈaː	owner	yes	
+वाइटुक	w a i ʈ u k	wˈaːɪʈˌuk	owner	no	
+वाइन	w a i n	wˈaːɪn	owner	yes	
+वाइनः	w a i n ɦ	wˈaːɪnh	owner	no	
+वाइनकफ	w a i n ʌ k ʌ pʰ	wˈaːɪnˌəkəpʰ	owner	yes	
+वाइनगर	w a i n ʌ g ʌ r	wˈaːɪnˌəɡəɾ	owner	no	
+वाइनग्लास	w a i n ʌ g l a s	wˌaːɪnəɡlˈaːs	owner	yes	
+वाइनद्वारा	w a i n ʌ d̪ w a r a	wˌaːɪnədwˈaːɾaː	owner	yes	
+वाइनप्रेस	w a i n ʌ p r e s	wˌaːɪnəpɾˈeːs	owner	yes	
+वाइनफ्रिड	w a i n ʌ pʰ r i ɖ	wˌaːɪnˈʌpʰɾɪɖ	owner	yes	
+वाइनफ्रेड	w a i n ʌ pʰ r e ɖ	wˌaːɪnəpʰɾˈeːɖ	owner	yes	
+वाइनफ्रेडको	w a i n ʌ pʰ r e ɖ k o	wˌaːɪnəpʰɾˈeːɖkˌoː	owner	no	
+वाइनफ्रेडले	w a i n ʌ pʰ r e ɖ l e	wˌaːɪnəpʰɾˈeːɖlˌeː	owner	no	
+वाइनमेकर	w a i n ʌ m e k ʌ r	wˌaːɪnəmˈeːkəɾ	owner	no	
+वाइनमेकरको	w a i n ʌ m e k ʌ r k o	wˌaːɪnəmˈeːkəɾkˌoː	owner	no	
+वाइनमेकिङ	w a i n ʌ m e k i ŋ	wˌaːɪnəmˈeːkɪŋ	owner	yes	
+वाइनयार्ड	w a i n ʌ j a r ɖ ʌ	wˌaːɪnəjˈaːɾɖˌə	owner	no	
+वाइनयार्डको	w a i n ʌ j a r ɖ ʌ k o	wˌaːɪnəjˈaːɾɖəkˌoː	owner	no	
+वाइनयार्डमा	w a i n ʌ j a r ɖ ʌ m a	wˌaːɪnəjˈaːɾɖəmˌaː	owner	no	
+वाइनर	w a i n ʌ r	wˈaːɪnˌəɾ	owner	no	
+वाइनरको	w a i n ʌ r k o	wˈaːɪnˌəɾkˌoː	owner	no	
+वाइनरद्वारा	w a i n ʌ r ʌ d̪ w a r a	wˌaːɪnˌəɾədwˈaːɾaː	owner	yes	
+वाइनरलाई	w a i n ʌ r l a i	wˌaːɪnˌəɾlˈaːi	owner	no	
+वाइनरले	w a i n ʌ r l e	wˈaːɪnˌəɾlˌeː	owner	no	
+वाइनरहरू	w a i n ʌ r ɦ ʌ r u	wˈaːɪnˌəɾhˌəɾuː	owner	no	
+वाइनरी	w a i n ʌ r i	wˈaːɪnˌəɾi	owner	yes	
+वाइनरीका	w a i n ʌ r i k a	wˌaːɪnəɾˈɪːkaː	owner	yes	
+वाइनरीको	w a i n ʌ r i k o	wˌaːɪnəɾˈɪːkoː	owner	yes	
+वाइनरीद्वारा	w a i n ʌ r i d̪ w a r a	wˌaːɪnˌəɾɪːdwˈaːɾaː	owner	yes	
+वाइनरीबाट	w a i n ʌ r i b a ʈ ʌ	wˌaːɪnˌəɾɪːbˈaːʈˌə	owner	no	
+वाइनरीमा	w a i n ʌ r i m a	wˌaːɪnəɾˈɪːmaː	owner	yes	
+वाइनरीलाई	w a i n ʌ r i l a i	wˌaːɪnˌəɾɪːlˈaːi	owner	yes	
+वाइनरीले	w a i n ʌ r i l e	wˌaːɪnəɾˈɪːleː	owner	yes	
+वाइनरीसँग	w a i n ʌ r i s ʌ̃ g ʌ	wˌaːɪnˌəɾɪːsˈʌ̃ɡˌə	owner	no	
+वाइनरीहरू	w a i n ʌ r i ɦ ʌ r u	wˌaːɪnəɾˈɪːhəɾˌuː	owner	yes	
+वाइनरीहरूका	w a i n ʌ r i ɦ ʌ r u k a	wˌaːɪnˌəɾɪːhəɾˈuːkaː	owner	yes	
+वाइनरीहरूको	w a i n ʌ r i ɦ ʌ r u k o	wˌaːɪnˌəɾɪːhəɾˈuːkoː	owner	yes	
+वाइनरीहरूद्वारा	w a i n ʌ r i ɦ ʌ r u d̪ w a r a	wˌaːɪnˌəɾɪːhˌəɾuːdwˈaːɾaː	owner	yes	
+वाइनरीहरूबाट	w a i n ʌ r i ɦ ʌ r u b a ʈ ʌ	wˌaːɪnˌəɾɪːhˌəɾuːbˈaːʈˌə	owner	no	
+वाइनरीहरूमा	w a i n ʌ r i ɦ ʌ r u m a	wˌaːɪnˌəɾɪːhəɾˈuːmaː	owner	yes	
+वाइनरीहरूलाई	w a i n ʌ r i ɦ ʌ r u l a i	wˌaːɪnˌəɾɪːhˌəɾuːlˈaːi	owner	yes	
+वाइनरीहरूले	w a i n ʌ r i ɦ ʌ r u l e	wˌaːɪnˌəɾɪːhəɾˈuːleː	owner	yes	
+वाइनसबर्ग	w a i n ʌ s ʌ b ʌ r g ʌ	wˌaːɪnˌəsəbˈʌɾɡˌə	owner	no	
+वाइनसहित	w a i n ʌ s ʌ ɦ i t̪	wˈaːɪnˌəsəhˌɪt	owner	yes	
+वाइनस्किन	w a i n ʌ s k i n	wˌaːɪnˈʌskɪn	owner	yes	
+वाइनस्टाइन	w a i n ʌ s ʈ a i n	wˌaːɪnəsʈˈaːɪn	owner	yes	
+वाइनस्टाइनका	w a i n ʌ s ʈ a i n k a	wˌaːɪnəsʈˈaːɪnkˌaː	owner	no	
+वाइनस्टाइनको	w a i n ʌ s ʈ a i n k o	wˌaːɪnəsʈˈaːɪnkˌoː	owner	no	
+वाइनस्टाइनद्वारा	w a i n ʌ s ʈ a i n ʌ d̪ w a r a	wˌaːɪnˌəsʈaːˌɪnədwˈaːɾaː	owner	yes	
+वाइनस्टाइनलाई	w a i n ʌ s ʈ a i n l a i	wˌaːɪnˌəsʈaːˌɪnlˈaːi	owner	no	
+वाइनस्टाइनले	w a i n ʌ s ʈ a i n l e	wˌaːɪnəsʈˈaːɪnlˌeː	owner	no	
+वाइनस्टाइनसँग	w a i n ʌ s ʈ a i n s ʌ̃ g ʌ	wˌaːɪnˌəsʈaːˌɪnsˈʌ̃ɡˌə	owner	no	
+वाइनस्टीन	w a i n ʌ s ʈ i n	wˌaːɪnəsʈˈɪːn	owner	yes	
+वाइनहाउस	w a i n ʌ ɦ a u s	wˌaːɪnəhˈaːʊs	owner	yes	
+वाइनहाउसका	w a i n ʌ ɦ a u s k a	wˌaːɪnəhˈaːʊskˌaː	owner	no	
+वाइनहाउसको	w a i n ʌ ɦ a u s k o	wˌaːɪnəhˈaːʊskˌoː	owner	no	
+वाइनहाउसलाई	w a i n ʌ ɦ a u s l a i	wˌaːɪnˌəhaːˌʊslˈaːi	owner	no	
+वाइनहाउसले	w a i n ʌ ɦ a u s l e	wˌaːɪnəhˈaːʊslˌeː	owner	no	
+वाइनिक	w a i n i k	wˈaːɪnˌɪk	owner	no	
+वाइनिङ	w a i n i ŋ	wˈaːɪnˌɪŋ	owner	yes	
+वाइनी	w a i n i	wˈaːɪnˌiː	owner	yes	
+वाइने	w a i n e	wˈaːɪnˌeː	owner	yes	
+वाइनेकपले	w a i n e k ʌ p l e	wˌaːɪnˈeːkəplˌeː	owner	no	
+वाइनेट	w a i n e ʈ	wˌaːɪnˈeːʈ	owner	yes	
+वाइनेटको	w a i n e ʈ k o	wˌaːɪnˈeːʈkˌoː	owner	no	
+वाइनेटद्वारा	w a i n e ʈ ʌ d̪ w a r a	wˌaːɪnˌeːʈədwˈaːɾaː	owner	yes	
+वाइनेटले	w a i n e ʈ l e	wˌaːɪnˈeːʈlˌeː	owner	no	
+वाइनेटसँग	w a i n e ʈ s ʌ̃ g ʌ	wˌaːɪnˌeːʈsˈʌ̃ɡˌə	owner	no	
+वाइनेफिल्ड	w a i n e pʰ i l ɖ ʌ	wˌaːɪneːpʰˈɪlɖˌə	owner	yes	
+वाइनो	w a i n o	wˈaːɪnˌoː	owner	yes	
+वाइनोना	w a i n o n a	wˌaːɪnˈoːnaː	owner	yes	
+वाइनोनी	w a i n o n i	wˌaːɪnˈoːni	owner	yes	
+वाइन्ज	w a i n dz ʌ	waːˈɪnɟˌə	owner	yes	
+वाइन्ड	w a i n ɖ ʌ	waːˈɪnɖˌə	owner	yes	
+वाइन्डिङ	w a i n ɖ i ŋ	waːˈɪnɖɪŋ	owner	yes	
+वाइन्डिङका	w a i n ɖ i ŋ k a	waːˈɪnɖɪŋkˌaː	owner	no	
+वाइन्डिङको	w a i n ɖ i ŋ k o	waːˈɪnɖɪŋkˌoː	owner	no	
+वाइन्डिङबाट	w a i n ɖ i ŋ b a ʈ ʌ	wˌaːɪnɖˌɪŋbˈaːʈˌə	owner	no	
+वाइन्डिङमा	w a i n ɖ i ŋ m a	waːˈɪnɖɪŋmˌaː	owner	no	
+वाइन्डिङलाई	w a i n ɖ i ŋ l a i	wˌaːɪnɖˌɪŋlˈaːi	owner	no	
+वाइन्डिङले	w a i n ɖ i ŋ l e	waːˈɪnɖɪŋlˌeː	owner	no	
+वाइन्डिङसँग	w a i n ɖ i ŋ s ʌ̃ g ʌ	wˌaːɪnɖˌɪŋsˈʌ̃ɡˌə	owner	no	
+वाइन्डिङहरू	w a i n ɖ i ŋ ɦ ʌ r u	waːˈɪnɖɪŋhˌəɾˌuː	owner	no	
+वाइन्डिङहरूको	w a i n ɖ i ŋ ɦ ʌ r u k o	wˌaːɪnɖˌɪŋhəɾˈuːkoː	owner	no	
+वाइन्स	w a i n s ʌ	waːˈɪnsˌə	owner	yes	
+वाइन्सटाइन	w a i n s ʌ ʈ a i n	wˌaːɪnsəʈˈaːɪn	owner	yes	
+वाइफ	w a i pʰ	wˈaːɪpʰ	owner	yes	
+वाइफपी	w a i pʰ ʌ p i	wˈaːɪpʰˌəpi	owner	yes	
+वाइफा	w a i pʰ a	wˈaːɪpʰˌaː	owner	yes	
+वाइफाइ	w a i pʰ a i	wˌaːɪpʰˈaːɪ	owner	yes	
+वाइफाइका	w a i pʰ a i k a	wˌaːɪpʰˈaːɪkˌaː	owner	yes	
+वाइफाइको	w a i pʰ a i k o	wˌaːɪpʰˈaːɪkˌoː	owner	yes	
+वाइफाइमा	w a i pʰ a i m a	wˌaːɪpʰˈaːɪmˌaː	owner	yes	
+वाइफाइलाई	w a i pʰ a i l a i	wˌaːɪpʰˌaːɪlˈaːi	owner	yes	
+वाइफाइले	w a i pʰ a i l e	wˌaːɪpʰˈaːɪlˌeː	owner	yes	
+वाइफाई	w a i pʰ a i	wˌaːɪpʰˈaːi	owner	yes	
+वाइफी	w a i pʰ i	wˈaːɪpʰˌiː	owner	yes	
+वाइफु	w a i pʰ u	wˈaːɪpʰˌu	owner	yes	
+वाइफेरिक	w a i pʰ e r i k	wˌaːɪpʰˈeːɾɪk	owner	no	
+वाइफोल्ड	w a i pʰ o l ɖ ʌ	wˌaːɪpʰˈoːlɖˌə	owner	yes	
+वाइफ्रेडो	w a i pʰ r e ɖ o	wˌaːɪpʰɾˈeːɖoː	owner	yes	
+वाइफ्स	w a i pʰ s ʌ	waːˈɪpʰsˌə	owner	yes	
 वाक्नु	w a k n u	wˈaːknˌu	owner	no	[wäknu]
+वाक्य	b a k j	bˈaːkj	audio	no	[wäkke] / [bäkke]
 वाङ्ला	b a ŋ l a	bˈaːŋlaː	owner	no	[wäŋlä]
-वायरिङमा	b a j r i ŋ m a	bˈaːjɾˌɪŋmˌaː	audio	no	
+वाट्सएप	w a ʈ s ʌ e p	wˈaːʈsəˌeːp	owner	yes	
+वायरिङ	w a j ʌ r i ŋ	wˈaːjəɾˌɪŋ	owner	yes	
+वायरिङमा	w a j r i ŋ m a	wˈaːjɾˌɪŋmˌaː	owner	no	
 वारपार	b a r p a r	bˌaːɾpˈaːɾ	audio	no	
-वार्ड	b a r ɖ	bˈaːɾɖ	audio	no	
-वार्डमा	b a r ɖ m a	bˈaːɾɖmˌaː	audio	no	
-वार्डेन	b a r ɖ e n	bˈaːɾɖeːn	audio	no	
+वार्ड	w a r ɖ	wˈaːɾɖ	owner	no	
+वार्डः	w a r ɖ ʌ ɦ	wˈaːɾɖəh	owner	no	
+वार्डअन्तर्गत	w a r ɖ ʌ ʌ n t̪ ʌ r g ʌ t̪	wˈaːɾɖəˌəntəɾɡˌət	owner	no	
+वार्डटाउन	w a r ɖ ʌ ʈ a u n ʌ	wˈaːɾɖəʈˌaːʊnˌə	owner	no	
+वार्डद्वारा	w a r ɖ ʌ d̪ w a r a	wˌaːɾɖədwˈaːɾaː	owner	no	
+वार्डन	w a r ɖ ʌ n	wˈaːɾɖən	owner	no	
+वार्डनः	w a r ɖ ʌ n ɦ	wˈaːɾɖənh	owner	no	
+वार्डनका	w a r ɖ ʌ n k a	wˈaːɾɖənkˌaː	owner	no	
+वार्डनकी	w a r ɖ ʌ n k i	wˈaːɾɖənkˌi	owner	no	
+वार्डनको	w a r ɖ ʌ n k o	wˈaːɾɖənkˌoː	owner	no	
+वार्डनद्वारा	w a r ɖ ʌ n ʌ d̪ w a r a	wˌaːɾɖənədwˈaːɾaː	owner	no	
+वार्डनबाट	w a r ɖ ʌ n b a ʈ ʌ	wˈaːɾɖənbˌaːʈˌə	owner	no	
+वार्डनमा	w a r ɖ ʌ n m a	wˈaːɾɖənmˌaː	owner	no	
+वार्डनर	w a r ɖ ʌ n ʌ r	wˈaːɾɖənˌəɾ	owner	no	
+वार्डनलाई	w a r ɖ ʌ n l a i	wˈaːɾɖənlˌaːˌiː	owner	no	
+वार्डनले	w a r ɖ ʌ n l e	wˈaːɾɖənlˌeː	owner	no	
+वार्डनसँग	w a r ɖ ʌ n s ʌ̃ g ʌ	wˈaːɾɖənsˌʌ̃ɡˌə	owner	no	
+वार्डनहरू	w a r ɖ ʌ n ɦ ʌ r u	wˈaːɾɖənhˌəɾˌuː	owner	no	
+वार्डनहरूको	w a r ɖ ʌ n ɦ ʌ r u k o	wˈaːɾɖənhˌəɾˌuːkoː	owner	no	
+वार्डनहरूद्वारा	w a r ɖ ʌ n ʌ ɦ ʌ r u d̪ w a r a	wˌaːɾɖənˌəhəɾuːdwˈaːɾaː	owner	no	
+वार्डनहरूलाई	w a r ɖ ʌ n ɦ ʌ r u l a i	wˈaːɾɖənhˌəɾˌuːlaːˌiː	owner	no	
+वार्डनहरूले	w a r ɖ ʌ n ɦ ʌ r u l e	wˈaːɾɖənhˌəɾˌuːleː	owner	no	
+वार्डपछि	w a r ɖ ʌ p ʌ tsʰ i	wˈaːɾɖəpˌəcʰɪ	owner	no	
+वार्डभित्र	w a r ɖ ʌ bʱ i t̪ r ʌ	wˌaːɾɖəbʰˈɪtɾˌə	owner	no	
+वार्डमध्ये	w a r ɖ ʌ m ʌ d̪ʱ j e	wˈaːɾɖəmˌədʰjeː	owner	no	
+वार्डमा	w a r ɖ m a	wˈaːɾɖmˌaː	owner	no	
+वार्डम्यान	w a r ɖ ʌ m j a n	wˈaːɾɖəmjˌaːn	owner	no	
+वार्डम्यानले	w a r ɖ ʌ m j a n l e	wˈaːɾɖəmjˌaːnlˌeː	owner	no	
+वार्डर	w a r ɖ ʌ r	wˈaːɾɖəɾ	owner	no	
+वार्डरको	w a r ɖ ʌ r k o	wˈaːɾɖəɾkˌoː	owner	no	
+वार्डरलाई	w a r ɖ ʌ r l a i	wˈaːɾɖəɾlˌaːˌiː	owner	no	
+वार्डरले	w a r ɖ ʌ r l e	wˈaːɾɖəɾlˌeː	owner	no	
+वार्डरहरू	w a r ɖ ʌ r ɦ ʌ r u	wˈaːɾɖəɾhˌəɾˌuː	owner	no	
+वार्डरहरूको	w a r ɖ ʌ r ɦ ʌ r u k o	wˈaːɾɖəɾhˌəɾˌuːkoː	owner	no	
+वार्डरहरूलाई	w a r ɖ ʌ r ɦ ʌ r u l a i	wˈaːɾɖəɾhˌəɾˌuːlaːˌiː	owner	no	
+वार्डरहरूले	w a r ɖ ʌ r ɦ ʌ r u l e	wˈaːɾɖəɾhˌəɾˌuːleː	owner	no	
+वार्डरुम	w a r ɖ ʌ r u m	wˈaːɾɖəɾˌum	owner	no	
+वार्डरूममा	w a r ɖ ʌ r u m m a	wˈaːɾɖəɾˌuːmmˌaː	owner	no	
+वार्डरोप	w a r ɖ ʌ r o p	wˈaːɾɖəɾˌoːp	owner	no	
+वार्डरोपले	w a r ɖ ʌ r o p l e	wˈaːɾɖəɾˌoːplˌeː	owner	no	
+वार्डरोब	w a r ɖ ʌ r o b	wˈaːɾɖəɾˌoːb	owner	no	
+वार्डरोबका	w a r ɖ ʌ r o b k a	wˈaːɾɖəɾˌoːbkˌaː	owner	no	
+वार्डरोबको	w a r ɖ ʌ r o b k o	wˈaːɾɖəɾˌoːbkˌoː	owner	no	
+वार्डरोबबाट	w a r ɖ ʌ r o b b a ʈ ʌ	wˈaːɾɖəɾˌoːbbˌaːʈˌə	owner	no	
+वार्डरोबमा	w a r ɖ ʌ r o b m a	wˈaːɾɖəɾˌoːbmˌaː	owner	no	
+वार्डरोबलाई	w a r ɖ ʌ r o b l a i	wˈaːɾɖəɾˌoːblˌaːi	owner	no	
+वार्डरोबले	w a r ɖ ʌ r o b l e	wˈaːɾɖəɾˌoːblˌeː	owner	no	
+वार्डरोबहरू	w a r ɖ ʌ r o b ɦ ʌ r u	wˈaːɾɖəɾˌoːbhˌəɾuː	owner	no	
+वार्डल	w a r ɖ ʌ l	wˈaːɾɖəl	owner	no	
+वार्डलको	w a r ɖ ʌ l k o	wˈaːɾɖəlkˌoː	owner	no	
+वार्डलद्वारा	w a r ɖ ʌ l ʌ d̪ w a r a	wˌaːɾɖələdwˈaːɾaː	owner	no	
+वार्डललाई	w a r ɖ ʌ l l a i	wˈaːɾɖəllˌaːˌiː	owner	no	
+वार्डलले	w a r ɖ ʌ l l e	wˈaːɾɖəllˌeː	owner	no	
+वार्डलाले	w a r ɖ ʌ l a l e	wˈaːɾɖəlˌaːleː	owner	no	
+वार्डली	w a r ɖ ʌ l i	wˈaːɾɖəlˌiː	owner	no	
+वार्डलॉ	w a r ɖ ʌ l	wˈaːɾɖəl	owner	no	
+वार्डलो	w a r ɖ ʌ l o	wˈaːɾɖəlˌoː	owner	no	
+वार्डलोले	w a r ɖ ʌ l o l e	wˈaːɾɖəlˌoːleː	owner	no	
+वार्डवेल	w a r ɖ ʌ w e l	wˌaːɾɖəwˈeːl	owner	no	
+वार्डसँगै	w a r ɖ ʌ s ʌ̃ g ʌi	wˌaːɾɖəsʌ̃ɡˈai	owner	no	
+वार्डसहित	w a r ɖ ʌ s ʌ ɦ i t̪	wˈaːɾɖəsˌəhɪt	owner	no	
+वार्डसिप	w a r ɖ ʌ s i p	wˈaːɾɖəsˌɪp	owner	no	
+वार्डसिपको	w a r ɖ ʌ s i p k o	wˈaːɾɖəsˌɪpkˌoː	owner	no	
+वार्डसिपमा	w a r ɖ ʌ s i p m a	wˈaːɾɖəsˌɪpmˌaː	owner	no	
+वार्डहरूः	w a r ɖ ʌ ɦ ʌ r u ɦ	wˈaːɾɖəhˌəɾuːh	owner	no	
+वार्डहरूद्वारा	w a r ɖ ʌ ɦ ʌ r u d̪ w a r a	wˌaːɾɖəhˌəɾuːdwˈaːɾaː	owner	no	
+वार्डियन	w a r ɖ i j ʌ n	wˈaːɾɖɪjˌən	owner	no	
+वार्डिल	w a r ɖ i l	wˈaːɾɖɪl	owner	no	
+वार्डिस	w a r ɖ i s	wˈaːɾɖɪs	owner	no	
+वार्डी	w a r ɖ i	wˈaːɾɖi	owner	no	
+वार्डीको	w a r ɖ i k o	wˈaːɾɖɪːkˌoː	owner	no	
+वार्डीलाई	w a r ɖ i l a i	wˈaːɾɖɪːlˌaːi	owner	no	
+वार्डीले	w a r ɖ i l e	wˈaːɾɖɪːlˌeː	owner	no	
+वार्डे	w a r ɖ e	wˈaːɾɖeː	owner	no	
+वार्डेन	w a r ɖ e n	wˈaːɾɖeːn	owner	no	
+वार्डेनक्लिफ	w a r ɖ e n ʌ k l i pʰ	wˈaːɾɖeːnˌəklɪpʰ	owner	no	
+वार्डेनबर्ग	w a r ɖ e n ʌ b ʌ r g ʌ	wˌaːɾɖeːnəbˈʌɾɡˌə	owner	no	
+वार्डेनिस	w a r ɖ e n i s	wˈaːɾɖeːnˌɪs	owner	no	
+वार्डेन्सिप	w a r ɖ e n s i p	waːɾɖˈeːnsɪp	owner	no	
+वार्डेल	w a r ɖ e l	wˈaːɾɖeːl	owner	no	
+वार्डेलको	w a r ɖ e l k o	wˈaːɾɖeːlkˌoː	owner	no	
+वार्डेलद्वारा	w a r ɖ e l ʌ d̪ w a r a	wˌaːɾɖeːlədwˈaːɾaː	owner	no	
+वार्डेललाई	w a r ɖ e l l a i	wˈaːɾɖeːllˌaːˌiː	owner	no	
+वार्डेलले	w a r ɖ e l l e	wˈaːɾɖeːllˌeː	owner	no	
+वार्डेले	w a r ɖ e l e	wˈaːɾɖeːlˌeː	owner	no	
+वार्डो	w a r ɖ o	wˈaːɾɖoː	owner	no	
+वार्डोर	w a r ɖ o r	wˈaːɾɖoːɾ	owner	no	
+वार्डोरको	w a r ɖ o r k o	wˈaːɾɖoːɾkˌoː	owner	no	
+वार्डोरले	w a r ɖ o r l e	wˈaːɾɖoːɾlˌeː	owner	no	
+वार्ड्रप	w a r ɖ r ʌ p	wˈaːɾɖɾəp	owner	no	
+वार्ड्रपको	w a r ɖ r ʌ p k o	wˈaːɾɖɾəpkˌoː	owner	no	
+वार्ड्स	w a r ɖ s ʌ	wˈaːɾɖsˌə	owner	no	
 वार्ता	b a r t̪ a	bˈaːɾtaː	agree	no	[bärt̪ä]
 वार्तालाप	b a r t̪ a l a p	bˈaːɾtaːlˌaːp	agree	no	[bärt̪äläp]
-वालपेपर	b a l p e p ʌ r	bˌaːlpˈeːpəɾ	audio	no	
-वालपेपरको	b a l p e p ʌ r k o	bˌaːlpˈeːpəɾkˌoː	audio	no	
+वालपेपर	w a l p e p ʌ r	wˌaːlpˈeːpəɾ	owner	no	
+वालपेपरको	w a l p e p ʌ r k o	wˌaːlpˈeːpəɾkˌoː	owner	no	
+वालमार्ट	w a l ʌ m a r ʈ ʌ	wˌaːləmˈaːɾʈˌə	owner	no	
+वालमार्टद्वारा	w a l ʌ m a r ʈ ʌ d̪ w a r a	wˌaːləmˌaːɾʈədwˈaːɾaː	owner	no	
 वास्तविकता	b a s t̪ ʌ w i k t̪ a	bˌaːstəwˈɪktˌaː	audio	no	
 वास्तविकतालाई	b a s t̪ ʌ w i k t̪ a l a i	bˌaːstəwˈɪktˌaːlaːˌiː	audio	no	
 विकको	b i k ʌ k o	bˈɪkəkˌoː	audio	no	
@@ -2549,6 +2769,9 @@ word	phonemes	hybrid	basis	espeak_agrees	wiktionary
 विकासबारे	b i k a s b a r e	bˌɪkaːsbˈaːɾeː	audio	no	
 विकि	b i k i	bˈɪkɪ	agree	no	[biki]
 विकिको	w i k i k o	wˈɪkɪkˌoː	owner	yes	/wi.ki.ko/
+विकिपिडिया	w i k i p i ɖ i j a	wˈɪkɪpˌɪɖɪjˌaː	owner	yes	/wikipiɖija/
+विकिपिडियाः	w i k i p i ɖ i j a ɦ	wˌɪkɪpˌɪɖɪjˈaːh	owner	yes	
+विकिपिडियाअनुसार	w i k i p i ɖ i j a ʌ n u s a r	wˌɪkɪpˌɪɖɪjˈaːənusˌaːɾ	owner	no	
 विकी	w i k i	wˈɪki	owner	yes	/wiki/
 विखण्डनको	b i kʰ ʌ n ɖ ʌ n ʌ k o	bɪkʰˈʌnɖənˌəkoː	audio	no	
 विजय	b i dz ʌ j	bˈɪɟəj	audio	no	
@@ -2565,6 +2788,9 @@ word	phonemes	hybrid	basis	espeak_agrees	wiktionary
 विनय	b i n ʌ j	bˈɪnəj	audio	no	
 विनासकारी	b i n a s k a r i	bˌɪnaːskˈaːɾi	audio	no	
 विनोद	b i n o d̪	bɪnˈoːd	agree	no	[binod̪]
+विन्डोज	w i n ɖ o dz	wɪnɖˈoːɟ	owner	yes	
+विन्डोजद्वारा	w i n ɖ o dz ʌ d̪ w a r a	wˌɪnɖoːɟədwˈaːɾaː	owner	yes	
+विन्डोजहरूद्वारा	w i n ɖ o dz ʌ ɦ ʌ r u d̪ w a r a	wˌɪnɖoːɟˌəhəɾuːdwˈaːɾaː	owner	yes	
 विपुल्	b i p u l	bˈɪpul	agree	no	[bipul]
 विराटनगर	b i r a ʈ n ʌ g ʌ r	bɪɾˈaːʈnˌəɡəɾ	owner	no	[biɾäʈɳʌɡ̞ʌr]
 विवेकमाथि	b i w e k m a t̪ʰ i	bɪwˈeːkmˌaːtʰɪ	audio	no	
@@ -2589,16 +2815,220 @@ word	phonemes	hybrid	basis	espeak_agrees	wiktionary
 वीरेन्द्रनगर	b i r e n d̪ r ʌ n ʌ g ʌ r	bɪːɾˈeːndɾənˌəɡəɾ	agree	no	[biɾen̪d̪rʌnʌɡ̞ʌr]
 वृश्चिक	b r i s ts i k	bɾˈɪscɪk	agree	no	[bɾist͡sik]
 वेदना	b e d̪ ʌ n a	bˈeːdənˌaː	agree	no	[bed̪ʌnä]
-वेबसाइट	b e b s a i ʈ	bˌeːbsˈaːɪʈ	audio	no	
-वेबसाइटका	b e b s a i ʈ k a	bˌeːbsˈaːɪʈkˌaː	audio	no	
-वेबसाइटको	b e b s a i ʈ k o	bˌeːbsˈaːɪʈkˌoː	audio	no	
-वेबसाइटबाट	b e b s a i ʈ b a ʈ ʌ	bˌeːbsˌaːɪʈbˈaːʈˌə	audio	no	
-वेबसाइटमा	b e b s a i ʈ m a	bˌeːbsˈaːɪʈmˌaː	audio	no	
-वेबसाइटलाई	b e b s a i ʈ l a i	bˌeːbsˌaːɪʈlˈaːi	audio	no	
-वेबसाइटले	b e b s a i ʈ l e	bˌeːbsˈaːɪʈlˌeː	audio	no	
-वेबसाइटहरु	b e b s a i ʈ ʌ ɦ ʌ r u	bˌeːbsˈaːɪʈˌəhəɾˌu	audio	no	
-वेलनेसले	b e l ʌ n e s ʌ l e	bˌeːlənˈeːsəlˌeː	audio	no	
+वेब	w e b	wˈeːb	owner	yes	
+वेबः	w e b ɦ	wˈeːbh	owner	no	
+वेबअ्याप	w e b ʌ ʌ j a p	wˌeːbˈəˈəjaːp	owner	no	
+वेबआरटीसी	w e b ʌ a r ʌ ʈ i s i	wˌeːbəˌaːɾəʈˈɪːsi	owner	yes	
+वेबएम	w e b ʌ e m	wˌeːbəˈeːm	owner	no	
+वेबएमडी	w e b ʌ e m ʌ ɖ i	wˌeːbəˈeːməɖˌiː	owner	yes	
+वेबएसेम्बली	w e b ʌ e s e m b ʌ l i	wˌeːbəeːsˈeːmbəlˌiː	owner	yes	
+वेबकमिक	w e b ʌ k ʌ m i k	wˈeːbəkˌəmɪk	owner	no	
+वेबकमिकका	w e b ʌ k ʌ m i k k a	wˈeːbəkˌəmɪkkˌaː	owner	no	
+वेबकमिकको	w e b ʌ k ʌ m i k k o	wˈeːbəkˌəmɪkkˌoː	owner	no	
+वेबकमिकमा	w e b ʌ k ʌ m i k m a	wˈeːbəkˌəmɪkmˌaː	owner	no	
+वेबकमिकलाई	w e b ʌ k ʌ m i k l a i	wˌeːbəkˌəmɪklˈaːi	owner	no	
+वेबकमिकले	w e b ʌ k ʌ m i k l e	wˈeːbəkˌəmɪklˌeː	owner	no	
+वेबकमिक्स	w e b ʌ k ʌ m i k s ʌ	wˌeːbəkəmˈɪksˌə	owner	yes	
+वेबकमिक्सका	w e b ʌ k ʌ m i k s ʌ k a	wˌeːbəkəmˈɪksəkˌaː	owner	yes	
+वेबकमिक्सको	w e b ʌ k ʌ m i k s ʌ k o	wˌeːbəkəmˈɪksəkˌoː	owner	yes	
+वेबकमिक्समा	w e b ʌ k ʌ m i k s ʌ m a	wˌeːbəkəmˈɪksəmˌaː	owner	yes	
+वेबकमिक्सहरू	w e b ʌ k ʌ m i k s ʌ ɦ ʌ r u	wˌeːbəkəmˈɪksəhˌəɾuː	owner	yes	
+वेबकास्ट	w e b ʌ k a s ʈ ʌ	wˌeːbəkˈaːsʈˌə	owner	yes	
+वेबकास्टको	w e b ʌ k a s ʈ ʌ k o	wˌeːbəkˈaːsʈəkˌoː	owner	yes	
+वेबकास्टमा	w e b ʌ k a s ʈ ʌ m a	wˌeːbəkˈaːsʈəmˌaː	owner	yes	
+वेबकास्टर	w e b ʌ k a s ʈ ʌ r	wˌeːbəkˈaːsʈəɾ	owner	no	
+वेबकास्टहरू	w e b ʌ k a s ʈ ʌ ɦ ʌ r u	wˌeːbəkˈaːsʈəhˌəɾuː	owner	yes	
+वेबकास्टिङ	w e b ʌ k a s ʈ i ŋ	wˌeːbəkˈaːsʈɪŋ	owner	yes	
+वेबकिट	w e b ʌ k i ʈ	wˈeːbəkˌɪʈ	owner	yes	
+वेबकैम	w e b ʌ k ʌi m	wˌeːbəkˈaim	owner	no	
+वेबकॉमिक	w e b ʌ k ʌ m i k	wˌeːbəkˈʌmɪk	owner	no	
+वेबकोर	w e b ʌ k o r	wˌeːbəkˈoːɾ	owner	no	
+वेबक्ट	w e b ʌ k ʈ ʌ	weːbˈʌkʈˌə	owner	yes	
+वेबक्याप	w e b ʌ k j a p	wˌeːbəkjˈaːp	owner	yes	
+वेबक्याम	w e b ʌ k j a m	wˌeːbəkjˈaːm	owner	no	
+वेबक्यामको	w e b ʌ k j a m k o	wˌeːbəkjˈaːmkˌoː	owner	no	
+वेबक्याममा	w e b ʌ k j a m m a	wˌeːbəkjˈaːmmˌaː	owner	no	
+वेबक्यामहरू	w e b ʌ k j a m ɦ ʌ r u	wˌeːbəkjˈaːmhˌəɾuː	owner	no	
+वेबक्वेस्ट	w e b ʌ k w e s ʈ ʌ	wˌeːbəkwˈeːsʈˌə	owner	yes	
+वेबजिन	w e b ʌ dz i n	wˈeːbəɟˌɪn	owner	yes	
+वेबजिनका	w e b ʌ dz i n k a	wˈeːbəɟˌɪnkˌaː	owner	no	
+वेबजिनको	w e b ʌ dz i n k o	wˈeːbəɟˌɪnkˌoː	owner	no	
+वेबजिनले	w e b ʌ dz i n l e	wˈeːbəɟˌɪnlˌeː	owner	no	
+वेबटिभी	w e b ʌ ʈ i bʱ i	wˈeːbəʈˌɪbʰi	owner	yes	
+वेबटुन	w e b ʌ ʈ u n	wˈeːbəʈˌun	owner	yes	
+वेबटून	w e b ʌ ʈ u n	wˌeːbəʈˈuːn	owner	yes	
+वेबटूनको	w e b ʌ ʈ u n k o	wˌeːbəʈˈuːnkˌoː	owner	no	
+वेबटूनमा	w e b ʌ ʈ u n m a	wˌeːbəʈˈuːnmˌaː	owner	no	
+वेबडाभ	w e b ʌ ɖ a bʱ	wˌeːbəɖˈaːbʰ	owner	yes	
+वेबडेन	w e b ʌ ɖ e n ʌ	wˌeːbəɖˈeːnˌə	owner	no	
+वेबडेभ	w e b ʌ ɖ e bʱ	wˌeːbəɖˈeːbʰ	owner	yes	
+वेबद्वारा	w e b ʌ d̪ w a r a	wˌeːbədwˈaːɾaː	owner	yes	
+वेबपी	w e b ʌ p i	wˈeːbəpˌiː	owner	yes	
+वेबपृष्ठ	w e b ʌ p r i s ʈʰ ʌ	wˌeːbəpɾˈɪsʈʰˌə	owner	yes	
+वेबपृष्ठको	w e b ʌ p r i s ʈʰ ʌ k o	wˌeːbəpɾˈɪsʈʰˌəkoː	owner	yes	
+वेबपृष्ठमा	w e b ʌ p r i s ʈʰ ʌ m a	wˌeːbəpɾˈɪsʈʰˌəmaː	owner	yes	
+वेबपृष्ठले	w e b ʌ p r i s ʈʰ ʌ l e	wˌeːbəpɾˈɪsʈʰˌəleː	owner	yes	
+वेबपृष्ठहरू	w e b ʌ p r i s ʈʰ ʌ ɦ ʌ r u	wˌeːbəpɾˈɪsʈʰˌəhəɾˌuː	owner	yes	
+वेबपृष्ठहरूको	w e b ʌ p r i s ʈʰ ʌ ɦ ʌ r u k o	wˌeːbəpɾˈɪsʈʰˌəhəɾˌuːkoː	owner	yes	
+वेबपृष्ठहरूमा	w e b ʌ p r i s ʈʰ ʌ ɦ ʌ r u m a	wˌeːbəpɾˈɪsʈʰˌəhəɾˌuːmaː	owner	yes	
+वेबपेज	w e b ʌ p e dz	wˌeːbəpˈeːɟ	owner	yes	
+वेबपेजका	w e b ʌ p e dz k a	wˌeːbəpˈeːɟkˌaː	owner	no	
+वेबपेजको	w e b ʌ p e dz k o	wˌeːbəpˈeːɟkˌoː	owner	no	
+वेबपेजबाट	w e b ʌ p e dz b a ʈ ʌ	wˌeːbəpˌeːɟbˈaːʈˌə	owner	no	
+वेबपेजमा	w e b ʌ p e dz m a	wˌeːbəpˈeːɟmˌaː	owner	no	
+वेबपेजले	w e b ʌ p e dz l e	wˌeːbəpˈeːɟlˌeː	owner	no	
+वेबपेजहरू	w e b ʌ p e dz ɦ ʌ r u	wˌeːbəpˈeːɟhˌəɾuː	owner	no	
+वेबफुट	w e b ʌ pʰ u ʈ	wˈeːbəpʰˌuʈ	owner	yes	
+वेबब	w e b ʌ b	wˈeːbəb	owner	yes	
+वेबबजेक्ट्स	w e b ʌ b ʌ dz e k ʈ s ʌ	wˌeːbəbəɟˈeːkʈsˌə	owner	yes	
+वेबबिङ	w e b ʌ b i ŋ	wˈeːbəbˌɪŋ	owner	yes	
+वेबबिङको	w e b ʌ b i ŋ k o	wˈeːbəbˌɪŋkˌoː	owner	no	
+वेबबी	w e b ʌ b i	wˈeːbəbˌiː	owner	yes	
+वेबबीः	w e b ʌ b i ɦ	wˌeːbəbˈɪːh	owner	yes	
+वेबबे	w e b ʌ b e	wˈeːbəbˌeː	owner	yes	
+वेबबेड	w e b ʌ b e ɖ	wˌeːbəbˈeːɖ	owner	yes	
+वेबब्जेक्टहरू	w e b ʌ b dz e k ʈ ʌ ɦ ʌ r u	wˌeːbəbɟˈeːkʈəhˌəɾuː	owner	yes	
+वेबब्जेक्ट्स	w e b ʌ b dz e k ʈ s ʌ	wˌeːbəbɟˈeːkʈsˌə	owner	yes	
+वेबभरि	w e b ʌ bʱ ʌ r i	wˈeːbəbʰˌəɾɪ	owner	yes	
+वेबमास्टर	w e b ʌ m a s ʈ ʌ r	wˌeːbəmˈaːsʈəɾ	owner	no	
+वेबमास्टरको	w e b ʌ m a s ʈ ʌ r k o	wˌeːbəmˈaːsʈəɾkˌoː	owner	no	
+वेबमास्टरले	w e b ʌ m a s ʈ ʌ r l e	wˌeːbəmˈaːsʈəɾlˌeː	owner	no	
+वेबमास्टरहरूलाई	w e b ʌ m a s ʈ ʌ r ɦ ʌ r u l a i	wˌeːbəmˈaːsʈəɾhˌəɾˌuːlaːˌiː	owner	no	
+वेबमास्टरहरूले	w e b ʌ m a s ʈ ʌ r ɦ ʌ r u l e	wˌeːbəmˈaːsʈəɾhˌəɾˌuːleː	owner	no	
+वेबमेट्रिक्स	w e b ʌ m e ʈ r i k s ʌ	wˌeːbəmeːʈɾˈɪksˌə	owner	yes	
+वेबमेल	w e b ʌ m e l	wˌeːbəmˈeːl	owner	yes	
+वेबर	w e b ʌ r	wˈeːbəɾ	owner	no	
+वेबरः	w e b ʌ r ɦ	wˈeːbəɾh	owner	no	
+वेबरका	w e b ʌ r k a	wˈeːbəɾkˌaː	owner	no	
+वेबरकी	w e b ʌ r k i	wˈeːbəɾkˌi	owner	no	
+वेबरको	w e b ʌ r k o	wˈeːbəɾkˌoː	owner	no	
+वेबरद्वारा	w e b ʌ r ʌ d̪ w a r a	wˌeːbəɾədwˈaːɾaː	owner	yes	
+वेबरबाट	w e b ʌ r b a ʈ ʌ	wˌeːbəɾbˈaːʈˌə	owner	no	
+वेबरभन्दा	w e b ʌ r bʱ ʌ n d̪ a	wˌeːbəɾbʰˈʌndaː	owner	no	
+वेबरमा	w e b ʌ r m a	wˈeːbəɾmˌaː	owner	no	
+वेबरलाई	w e b ʌ r l a i	wˌeːbəɾlˈaːi	owner	no	
+वेबरले	w e b ʌ r l e	wˈeːbəɾlˌeː	owner	no	
+वेबरसँग	w e b ʌ r s ʌ̃ g ʌ	wˌeːbəɾsˈʌ̃ɡˌə	owner	no	
+वेबरहरू	w e b ʌ r ɦ ʌ r u	wˈeːbəɾhˌəɾˌuː	owner	no	
+वेबर्न	w e b ʌ r n ʌ	weːbˈʌɾnˌə	owner	no	
+वेबर्नका	w e b ʌ r n ʌ k a	weːbˈʌɾnəkˌaː	owner	no	
+वेबर्नको	w e b ʌ r n ʌ k o	weːbˈʌɾnəkˌoː	owner	no	
+वेबर्नमा	w e b ʌ r n ʌ m a	weːbˈʌɾnəmˌaː	owner	no	
+वेबर्नले	w e b ʌ r n ʌ l e	weːbˈʌɾnəlˌeː	owner	no	
+वेबल	w e b ʌ l	wˈeːbəl	owner	yes	
+वेबलग	w e b ʌ l ʌ g	wˈeːbəlˌəɡ	owner	yes	
+वेबलगमा	w e b ʌ l ʌ g m a	wˈeːbəlˌəɡmˌaː	owner	no	
+वेबलगहरू	w e b ʌ l ʌ g ɦ ʌ r u	wˈeːbəlˌəɡhˌəɾuː	owner	no	
+वेबवर्म	w e b ʌ w ʌ r m ʌ	wˌeːbəwˈʌɾmˌə	owner	no	
+वेबस	w e b ʌ s	wˈeːbəs	owner	yes	
+वेबसाइट	w e b s a i ʈ	wˌeːbsˈaːɪʈ	owner	no	
+वेबसाइटः	w e b ʌ s a i ʈ ɦ	wˌeːbəsˈaːɪʈh	owner	no	
+वेबसाइटअनुसार	w e b ʌ s a i ʈ ʌ ʌ n u s a r	wˌeːbəsˌaːɪʈˈəənusˌaːɾ	owner	no	
+वेबसाइटका	w e b s a i ʈ k a	wˌeːbsˈaːɪʈkˌaː	owner	no	
+वेबसाइटको	w e b s a i ʈ k o	wˌeːbsˈaːɪʈkˌoː	owner	no	
+वेबसाइटद्वारा	w e b ʌ s a i ʈ ʌ d̪ w a r a	wˌeːbəsˌaːɪʈədwˈaːɾaː	owner	yes	
+वेबसाइटबाट	w e b s a i ʈ b a ʈ ʌ	wˌeːbsˌaːɪʈbˈaːʈˌə	owner	no	
+वेबसाइटबाटः	w e b ʌ s a i ʈ ʌ b a ʈ ɦ	wˌeːbəsˌaːɪʈəbˈaːʈh	owner	no	
+वेबसाइटभित्र	w e b ʌ s a i ʈ ʌ bʱ i t̪ r ʌ	wˌeːbəsˌaːɪʈəbʰˈɪtɾˌə	owner	yes	
+वेबसाइटमा	w e b s a i ʈ m a	wˌeːbsˈaːɪʈmˌaː	owner	no	
+वेबसाइटमार्फत	w e b ʌ s a i ʈ ʌ m a r pʰ ʌ t̪	wˌeːbəsˌaːɪʈəmˈaːɾpʰət	owner	no	
+वेबसाइटलाई	w e b s a i ʈ l a i	wˌeːbsˌaːɪʈlˈaːi	owner	no	
+वेबसाइटले	w e b s a i ʈ l e	wˌeːbsˈaːɪʈlˌeː	owner	no	
+वेबसाइटसहित	w e b ʌ s a i ʈ ʌ s ʌ ɦ i t̪	wˌeːbəsˈaːɪʈˌəsəhˌɪt	owner	yes	
+वेबसाइटहरु	w e b s a i ʈ ʌ ɦ ʌ r u	wˌeːbsˈaːɪʈˌəhəɾˌu	owner	no	
+वेबसाइटहरूः	w e b ʌ s a i ʈ ʌ ɦ ʌ r u ɦ	wˌeːbəsˌaːɪʈˌəhəɾˈuːh	owner	yes	
+वेबसाइटहरूद्वारा	w e b ʌ s a i ʈ ʌ ɦ ʌ r u d̪ w a r a	wˌeːbəsˌaːɪʈˌəhəɾuːdwˈaːɾaː	owner	yes	
+वेबसेसन	w e b ʌ s e s ʌ n	wˌeːbəsˈeːsən	owner	yes	
+वेबसोडहरू	w e b ʌ s o ɖ ɦ ʌ r u	wˌeːbəsˈoːɖhˌəɾuː	owner	no	
+वेबसोडहरूको	w e b ʌ s o ɖ ɦ ʌ r u k o	wˌeːbəsˌoːɖhəɾˈuːkoː	owner	no	
+वेबसोडहरूमा	w e b ʌ s o ɖ ɦ ʌ r u m a	wˌeːbəsˌoːɖhəɾˈuːmaː	owner	no	
+वेबसोड्स	w e b ʌ s o ɖ s ʌ	wˌeːbəsˈoːɖsˌə	owner	yes	
+वेबस्टर	w e b ʌ s ʈ ʌ r	weːbˈʌsʈəɾ	owner	no	
+वेबस्टरः	w e b ʌ s ʈ ʌ r ɦ	weːbˈʌsʈəɾh	owner	no	
+वेबस्टरका	w e b ʌ s ʈ ʌ r k a	weːbˈʌsʈəɾkˌaː	owner	no	
+वेबस्टरकी	w e b ʌ s ʈ ʌ r k i	weːbˈʌsʈəɾkˌi	owner	no	
+वेबस्टरको	w e b ʌ s ʈ ʌ r k o	weːbˈʌsʈəɾkˌoː	owner	no	
+वेबस्टरद्वारा	w e b ʌ s ʈ ʌ r ʌ d̪ w a r a	wˌeːbəsʈˌəɾədwˈaːɾaː	owner	yes	
+वेबस्टरबाट	w e b ʌ s ʈ ʌ r b a ʈ ʌ	wˌeːbəsʈˌəɾbˈaːʈˌə	owner	no	
+वेबस्टरमा	w e b ʌ s ʈ ʌ r m a	weːbˈʌsʈəɾmˌaː	owner	no	
+वेबस्टरलाई	w e b ʌ s ʈ ʌ r l a i	wˌeːbəsʈˌəɾlˈaːi	owner	no	
+वेबस्टरले	w e b ʌ s ʈ ʌ r l e	weːbˈʌsʈəɾlˌeː	owner	no	
+वेबस्टरसँग	w e b ʌ s ʈ ʌ r s ʌ̃ g ʌ	wˌeːbəsʈˌəɾsˈʌ̃ɡˌə	owner	no	
+वेबस्टोर	w e b ʌ s ʈ o r	wˌeːbəsʈˈoːɾ	owner	no	
+वेबस्टोरमा	w e b ʌ s ʈ o r m a	wˌeːbəsʈˈoːɾmˌaː	owner	no	
+वेबस्ट्रीम	w e b ʌ s ʈ r i m	wˌeːbəsʈɾˈɪːm	owner	no	
+वेबस्फेयर	w e b ʌ s pʰ e j ʌ r	wˌeːbəspʰˈeːjəɾ	owner	no	
+वेबाट	w e b a ʈ	weːbˈaːʈ	owner	yes	
+वेबिङ	w e b i ŋ	wˈeːbɪŋ	owner	yes	
+वेबिङको	w e b i ŋ k o	wˈeːbɪŋkˌoː	owner	no	
+वेबिट	w e b i ʈ	wˈeːbɪʈ	owner	yes	
+वेबिनार	w e b i n a r	wˌeːbɪnˈaːɾ	owner	no	
+वेबिनारमा	w e b i n a r m a	wˌeːbɪnˈaːɾmˌaː	owner	no	
+वेबिनारहरू	w e b i n a r ɦ ʌ r u	wˌeːbɪnˈaːɾhˌəɾuː	owner	no	
+वेबिनारहरूको	w e b i n a r ɦ ʌ r u k o	wˌeːbɪnˌaːɾhəɾˈuːkoː	owner	no	
+वेबिल	w e b i l	wˈeːbɪl	owner	yes	
+वेबिलहरू	w e b i l ɦ ʌ r u	wˈeːbɪlhˌəɾˌuː	owner	no	
+वेबी	w e b i	wˈeːbi	owner	yes	
+वेबुल	w e b u l	wˈeːbul	owner	yes	
+वेबे	w e b e	wˈeːbeː	owner	yes	
+वेबेक्स	w e b e k s ʌ	weːbˈeːksˌə	owner	yes	
+वेबेरियन	w e b e r i j ʌ n	weːbˈeːɾɪjˌən	owner	yes	
+वेबेरी	w e b e r i	weːbˈeːɾi	owner	yes	
+वेबेल	w e b e l	weːbˈeːl	owner	yes	
+वेबेले	w e b e l e	weːbˈeːleː	owner	yes	
+वेबेलोस	w e b e l o s	wˌeːbeːlˈoːs	owner	yes	
+वेबोज	w e b o dz	weːbˈoːɟ	owner	yes	
+वेबोर्न	w e b o r n ʌ	weːbˈoːɾnˌə	owner	no	
+वेबोस	w e b o s	weːbˈoːs	owner	yes	
+वेब्ड	w e b ɖ ʌ	wˈeːbɖˌə	owner	yes	
+वेब्याक	w e b j a k	wˈeːbjaːk	owner	no	
+वेब्रिज	w e b r i dz	wˈeːbɾɪɟ	owner	yes	
+वेब्ली	w e b l i	wˈeːbli	owner	yes	
+वेब्लीले	w e b l i l e	wˈeːblɪːlˌeː	owner	yes	
+वेब्ले	w e b l e	wˈeːbleː	owner	yes	
+वेब्स्टर	w e b s ʈ ʌ r	wˈeːbsʈəɾ	owner	no	
+वेलनेस	w e l ʌ n e s	wˌeːlənˈeːs	owner	yes	
+वेलनेसले	w e l ʌ n e s ʌ l e	wˌeːlənˈeːsəlˌeː	owner	yes	
+वेलिङ्टन	w e l i ŋ ʈ ʌ n	weːlˈɪŋʈən	owner	yes	
+वेल्स	w e l s ʌ	wˈeːlsˌə	owner	yes	
+वेल्सः	w e l s ʌ ɦ	wˈeːlsəh	owner	yes	
+वेल्सद्वारा	w e l s ʌ d̪ w a r a	wˌeːlsədwˈaːɾaː	owner	yes	
+वेल्सपुल	w e l s ʌ p u l	wˈeːlsəpˌul	owner	yes	
+वेल्सपुलको	w e l s ʌ p u l k o	wˈeːlsəpˌulkˌoː	owner	no	
+वेल्सपुलमा	w e l s ʌ p u l m a	wˈeːlsəpˌulmˌaː	owner	no	
+वेल्सफोर्ड	w e l s ʌ pʰ o r ɖ ʌ	wˌeːlsəpʰˈoːɾɖˌə	owner	no	
+वेल्सबर्ग	w e l s ʌ b ʌ r g ʌ	wˌeːlsəbˈʌɾɡˌə	owner	no	
+वेल्सबाख	w e l s ʌ b a kʰ	wˈeːlsəbˌaːkʰ	owner	yes	
+वेल्सबिच	w e l s ʌ b i ts	wˈeːlsəbˌɪc	owner	yes	
+वेल्सबिचको	w e l s ʌ b i ts k o	wˈeːlsəbˌɪckˌoː	owner	no	
+वेल्सबी	w e l s ʌ b i	wˈeːlsəbˌiː	owner	yes	
+वेल्सबीले	w e l s ʌ b i l e	wˈeːlsəbˌɪːleː	owner	yes	
+वेल्सबोरो	w e l s ʌ b o r o	wˈeːlsəbˌoːɾoː	owner	yes	
+वेल्सबोर्न	w e l s ʌ b o r n ʌ	wˌeːlsəbˈoːɾnˌə	owner	no	
+वेल्सभरि	w e l s ʌ bʱ ʌ r i	wˈeːlsəbʰˌəɾɪ	owner	yes	
+वेल्सभित्र	w e l s ʌ bʱ i t̪ r ʌ	wˌeːlsəbʰˈɪtɾˌə	owner	yes	
+वेल्सभिल	w e l s ʌ bʱ i l	wˈeːlsəbʰˌɪl	owner	yes	
+वेल्सभिलको	w e l s ʌ bʱ i l k o	wˈeːlsəbʰˌɪlkˌoː	owner	no	
+वेल्सभिलमा	w e l s ʌ bʱ i l m a	wˈeːlsəbʰˌɪlmˌaː	owner	no	
+वेल्समाथि	w e l s ʌ m a t̪ʰ i	wˈeːlsəmˌaːtʰɪ	owner	yes	
+वेल्सम्यान	w e l s ʌ m j a n	wˈeːlsəmjˌaːn	owner	no	
+वेल्सर	w e l s ʌ r	wˈeːlsəɾ	owner	no	
+वेल्सली	w e l s ʌ l i	wˈeːlsəlˌiː	owner	yes	
+वेल्सवर्थ	w e l s ʌ w ʌ r t̪ʰ ʌ	wˌeːlsəwˈʌɾtʰˌə	owner	no	
+वेल्सविरुद्ध	w e l s ʌ w i r u d̪ d̪ʱ ʌ	wˌeːlsəwˌɪɾˈuddʰˌə	owner	yes	
+वेल्ससहित	w e l s ʌ s ʌ ɦ i t̪	wˈeːlsəsˌəhɪt	owner	yes	
+वेल्सेर	w e l s e r ʌ	wˈeːlseːɾˌə	owner	yes	
+वेल्स्ली	w e l s l i	wˈeːlsli	owner	yes	
+वेल्स्लीको	w e l s l i k o	wˈeːlslɪːkˌoː	owner	yes	
+वेल्स्लीले	w e l s l i l e	wˈeːlslɪːlˌeː	owner	yes	
+वेल्स्ले	w e l s l e	wˈeːlsleː	owner	yes	
 वेवसाइट	b e w s a i ʈ	bˌeːwsˈaːɪʈ	audio	no	
+वेस्टमिनिस्टर	w e s ʈ ʌ m i n i s ʈ ʌ r	wˈeːsʈəmˌɪnɪsʈˌəɾ	owner	no	
+वेस्टर्न	w e s ʈ ʌ r n ʌ	weːsʈˈʌɾnˌə	owner	no	
+वेस्टर्नद्वारा	w e s ʈ ʌ r n ʌ d̪ w a r a	wˌeːsʈəɾnədwˈaːɾaː	owner	no	
+वेस्टर्नपोर्ट	w e s ʈ ʌ r n ʌ p o r ʈ ʌ	wˌeːsʈəɾnəpˈoːɾʈˌə	owner	no	
+वेस्टर्नर्स	w e s ʈ ʌ r n ʌ r s ʌ	wˌeːsʈəɾnˈʌɾsˌə	owner	no	
+वेस्टर्नहेगन	w e s ʈ ʌ r n ʌ ɦ e g ʌ n	wˈeːsʈəɾnˌəheːɡˌən	owner	no	
 वैद्यको	b ʌi d̪ j k o	bˈaidjkˌoː	audio	no	
 वैध	b ʌi d̪ʱ ʌ	bˈaidʰˌə	audio	no	
 वैशाख	b ʌi s a kʰ	baisˈaːkʰ	agree	no	[bʌi̯säk̞ʰ]
@@ -2620,6 +3050,7 @@ word	phonemes	hybrid	basis	espeak_agrees	wiktionary
 शरणार्थीको	s ʌ r n a r t̪ʰ i k o	sˌəɾnˈaːɾtʰɪːkˌoː	audio	no	
 शरद	s ʌ r ʌ d̪	sˈʌɾəd	agree	yes	[sʌɾʌd̪]
 शवहरूको	s ʌ w ʌ ɦ ʌ r u k o	sˌəwəhəɾˈuːkoː	audio	yes	
+शाक्यले	s a k j l e	sˈaːkjlˌeː	audio	no	
 शान्त	s a n t̪ ʌ	sˈaːntˌə	agree	yes	[sän̪t̪ʌ]
 शासनकालमा	s a s ʌ n k a l m a	sˌaːsənkˈaːlmˌaː	audio	no	
 शास्त्र	s a s t̪ r ʌ	sˈaːstɾˌə	agree	yes	[säst̪rʌ]
@@ -2832,6 +3263,7 @@ word	phonemes	hybrid	basis	espeak_agrees	wiktionary
 सामग्रीहरू	s a m ʌ g r i ɦ ʌ r u	sˌaːməɡɾˈɪːhəɾˌuː	agree	yes	[sämʌɡ̞riɦʌɾu]
 सामान	s a m a n	saːmˈaːn	agree	yes	[sämän]
 सामानबारे	s a m a n b a r e	sˌaːmaːnbˈaːɾeː	audio	no	
+सामान्य	s a m a n j	saːmˈaːnj	audio	no	[sämänːe]
 सायरा	s a j r a	sˈaːjɾˌaː	audio	no	
 सार्वजनिक	s a r w ʌ dz n i k	saːɾwˈʌɟnɪk	owner	no	
 सालतिरै	s a l t̪ i r ʌi	sˈaːltˌɪɾai	audio	no	
@@ -2951,6 +3383,7 @@ word	phonemes	hybrid	basis	espeak_agrees	wiktionary
 हजुरबाको	ɦ ʌ dz u r b a k o	hˌəɟuɾbˈaːkoː	audio	no	
 हजुरबाले	ɦ ʌ dz u r b a l e	hˌəɟuɾbˈaːleː	audio	no	
 हजुरबुवाले	ɦ ʌ dz u r b u w a l e	hˌəɟuɾbˌuwˈaːleː	audio	no	
+हतारहतार	ɦ ʌ t̪ a r ʌ ɦ ʌ t̪ a r ʌ	hˌətaːɾˌəhətˈaːɾˌə	audio	yes	
 हतियार	ɦ ʌ t̪ i j a r ʌ	hˌətɪjˈaːɾˌə	audio	yes	[ɦʌt̪ijär]
 हत्तेरी	ɦ ʌ t̪ t̪ e r i	hˈʌttˌeːɾi	agree	yes	[ɦʌt̪̚t̪eɾi]
 हत्तेरीका	ɦ ʌ t̪ t̪ e r i k a	həttˌeːɾˈɪːkaː	agree	yes	[ɦʌt̪̚t̪eɾikä]

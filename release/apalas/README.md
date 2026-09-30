@@ -15,6 +15,10 @@ apalas_phonemizer/
 ├── app.py                     the app: 1 · compare with espeak-ng   2 · benchmark against ground truth
 ├── ground_truth.tsv           {verified} verified words (word, phonemes, basis): the default ground truth
 ├── ground_truth_sentences.tsv {sentences} sentences with IPA (sentence, sentence_ipa): sentence-level ground truth
+├── ground_truth_dual_sentences.tsv   sentences with words that have two pronunciations (दिन, तिर, चोर, सित, छिन, सहन, रहन …)
+│                              Any ground_truth*.tsv file placed here shows up in the app's Benchmark tab.
+├── dual_words.tsv             the dual-words deck: words said two ways by context (दिन d̪ i n / d̪ i n ʌ);
+│                              app tab 3. Fill the `note` column with the meaning of each form.
 ├── lexicon.dict               reference dictionary: {lexicon_words} words, word<TAB>phonemes (not used at run time)
 ├── test.py                    self-test: rule samples, exceptions, ground truth, lexicon
 └── deephoneme/                the phonemizer

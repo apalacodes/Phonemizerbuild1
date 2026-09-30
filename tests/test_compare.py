@@ -51,3 +51,17 @@ def test_alternatives_count_as_right():
     short = {"जनता": ["dz", "ʌ", "n", "t̪", "a"], "छ": ["tsʰ", "ʌ"]}
     assert score(rows, short.__getitem__, alts)["acc"] == 1.0   # the alternative is accepted
     assert score(rows, short.__getitem__)["acc"] == 0.5         # without alternatives it is an error
+
+
+def test_ipa_nasal_diphthong_notation():
+    from g2p.compare import ipa_to_ours
+    import unicodedata
+    expected = [unicodedata.normalize("NFD", t) for t in ["bʱ", "ʌĩ", "s", "i"]]
+    assert ipa_to_ours("bʱʌ̃isi") == ipa_to_ours("bʱʌĩsi") == expected
+
+
+def test_dual_words_found_across_sentences():
+    from g2p.compare import dual_words, parse_sentences
+    text = "sentence\tsentence_ipa\nएक दिन\tek d̪in\nदिन छ\td̪inʌ tsʰʌ\n"
+    _, sents = parse_sentences(text)
+    assert dual_words(sents) == {"दिन": {"d̪ i n": ["एक दिन"], "d̪ i n ʌ": ["दिन छ"]}}

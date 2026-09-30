@@ -26,8 +26,7 @@ from deephoneme.normalize import tokenize
 from deephoneme.speech import synth
 from deephoneme.speech.kokoro_voice import HINDI_VOICES, MODEL_DIR, KokoroVoice
 
-GROUND_TRUTH = Path(__file__).resolve().parent / "ground_truth.tsv"
-SENTENCES = Path(__file__).resolve().parent / "ground_truth_sentences.tsv"
+HERE = Path(__file__).resolve().parent
 HAVE_ESPEAK = shutil.which("espeak-ng") is not None
 
 logging.disable(logging.WARNING)
@@ -87,7 +86,8 @@ with st.sidebar:
     st.write("✅ espeak-ng found" if HAVE_ESPEAK else "❌ espeak-ng missing: `sudo apt install espeak-ng`")
 
 voice = load_voice(speaker) if KokoroVoice.available() else None
-tab_compare, tab_bench = st.tabs(["1 · Compare with espeak-ng", "2 · Benchmark against ground truth"])
+tab_compare, tab_bench, tab_dual = st.tabs(["1 · Compare with espeak-ng", "2 · Benchmark against ground truth",
+                                            "3 · Dual words"])
 
 with tab_compare:
     text = st.text_area("Nepali text", height=110, placeholder="यहाँ वाक्य लेख्नुहोस्…")
@@ -130,9 +130,10 @@ with tab_compare:
                 play(synth.phonemes_for(w, g2p="espeak")[1], c[6])
 
 with tab_bench:
-    source = st.radio("Ground truth", ["ground_truth.tsv (words, bundled)",
-                                       "ground_truth_sentences.tsv (sentences, bundled)", "upload my own file"],
-                      horizontal=True)
+    bundled = {f.name: f for f in sorted(HERE.glob("ground_truth*.tsv"))}  # every bundled ground truth
+    source = st.radio("Ground truth", list(bundled) + ["upload my own file"], horizontal=True,
+                      format_func=lambda n: n if n.startswith("upload") else
+                      f"{n} ({'sentences' if 'sentences' in n else 'words'})")
     rows, sentences = None, None
     if source.startswith("upload"):
         up = st.file_uploader("TSV or CSV with a header: word, phonemes (space-separated), optional basis — "
@@ -147,10 +148,10 @@ with tab_bench:
                     rows = parse_ground_truth(up.getvalue())
             except (ValueError, UnicodeDecodeError, IndexError) as err:
                 st.error(str(err))
-    elif source.startswith("ground_truth_sentences"):
-        rows, sentences = load_sentences(SENTENCES)
+    elif "sentences" in source:
+        rows, sentences = load_sentences(bundled[source])
     else:
-        rows = parse_ground_truth(GROUND_TRUTH.read_bytes())
+        rows = parse_ground_truth(bundled[source].read_bytes())
     if sentences is not None:
         skipped = [s for s in sentences if not s["ok"]]
         st.caption(f"{len(sentences)} sentences, {len(rows)} words. The IPA is converted to our symbols "
@@ -270,3 +271,29 @@ with tab_bench:
                 play(symbols, c3)
         else:
             st.success(f"{who} matches every ground-truth word.")
+
+with tab_dual:
+    deck = HERE / "dual_words.tsv"
+    st.caption("Words your sentence ground truths pronounce in two ways depending on the sentence "
+               "(दिन: day / to give). A word-by-word phonemizer gives one form only, so these are kept on the "
+               "side, not in exceptions.tsv. Write what each form means in the `note` column of dual_words.tsv.")
+    if not deck.exists():
+        st.info("No dual_words.tsv yet (built in the development repo: uv run bench/build_dual_words.py).")
+    else:
+        lines = deck.read_text(encoding="utf-8").splitlines()
+        header = lines[0].split("\t")
+        forms = [dict(zip(header, line.split("\t"))) for line in lines[1:] if line.strip()]
+        words = list(dict.fromkeys(f["word"] for f in forms))
+        st.dataframe([{"word": w, "ours": next(f["ours"] for f in forms if f["word"] == w),
+                       "forms": "  /  ".join(f"{f['form']} ×{f['count']}" for f in forms if f["word"] == w),
+                       "ours matches": sum(int(f["count"]) for f in forms if f["word"] == w and f["form"] == f["ours"]),
+                       "ours misses": sum(int(f["count"]) for f in forms if f["word"] == w and f["form"] != f["ours"])}
+                      for w in words], width="stretch", hide_index=True)
+        word = st.selectbox("Word", words, key="dual_word")
+        st.markdown(f"**{word}**: ours `{next(f['ours'] for f in forms if f['word'] == word)}`")
+        for f in [f for f in forms if f["word"] == word]:
+            c1, c2, c3, c4 = st.columns([2, 2, 5, 3])
+            c1.code(f["form"] + ("  = ours" if f["form"] == f["ours"] else ""), language=None)
+            c2.write(f"×{f['count']}" + (f" · {f['note']}" if f.get("note") else ""))
+            c3.write(f"“{f['example']}”")
+            play(ours_symbols(word, f["form"].split()), c4)

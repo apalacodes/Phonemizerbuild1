@@ -13825,7 +13825,7 @@ word	source	lemma	split	phonemes	hybrid	wiktionary	agrees
 छिँदैनथ्यौं	form	छिन्नु	train	tsʰ ĩ d̪ ʌi n ʌ t̪ʰ j ʌũ	cʰĩdˈainətʰjˌʌũ		
 छिटो	headword	छिटो	train	tsʰ i ʈ o	cʰˈɪʈoː	[t͡sʰiʈo]	yes
 छिट्टो	headword	छिट्टो	train	tsʰ i ʈ ʈ o	cʰˈɪʈʈˌoː	[t͡sʰiʈ̚ʈo]	yes
-छिन	headword	छिन	test	tsʰ i n	cʰˈɪn	[t͡sʰin] / [t͡sʰinʌ]	yes
+छिन	headword	छिन	test	tsʰ i n ʌ	cʰˈɪnˌə	[t͡sʰin] / [t͡sʰinʌ]	yes
 छिनि	form	छिन्नु	train	tsʰ i n i	cʰˈɪnɪ		
 छिनिछिन्	form	छिन्नु	train	tsʰ i n i tsʰ i n	cʰˈɪnɪcʰˌɪn		
 छिनिछु	form	छिन्नु	train	tsʰ i n i tsʰ u	cʰˈɪnɪcʰˌu		
@@ -48780,7 +48780,7 @@ word	source	lemma	split	phonemes	hybrid	wiktionary	agrees
 वाक्नेछौं	form	वाक्नु	train	b a k n e tsʰ ʌũ	bˈaːkneːcʰˌʌũ		
 वाक्नेछ्यौ	form	वाक्नु	train	b a k n e tsʰ j ʌu	baːknˈeːcʰjʌu		
 वाक्नोस्	form	वाक्नु	train	b a k n o s	bˈaːknoːs		
-वाक्य	headword	वाक्य	test	b a k j ʌ	bˈaːkjˌə	[wäkke] / [bäkke]	no
+वाक्य	headword	वाक्य	test	b a k j	bˈaːkj	[wäkke] / [bäkke]	no
 वाक्यो	form	वाक्नु	train	b a k j o	bˈaːkjoː		
 वाक्यौ	form	वाक्नु	train	b a k j ʌu	bˈaːkjʌu		
 वाक्यौं	form	वाक्नु	train	b a k j ʌũ	bˈaːkjʌũ		
@@ -48803,7 +48803,7 @@ word	source	lemma	split	phonemes	hybrid	wiktionary	agrees
 विकास	headword	विकास	train	b i k a s	bɪkˈaːs	[bikäs]	yes
 विकि	headword	विकि	train	b i k i	bˈɪkɪ	[biki]	yes
 विकिको	headword	विकिको	train	w i k i k o	wˈɪkɪkˌoː	/wi.ki.ko/	yes
-विकिपिडिया	headword	विकिपिडिया	train	b i k i p i ɖ i j a	bˈɪkɪpˌɪɖɪjˌaː	/wikipiɖija/	no
+विकिपिडिया	headword	विकिपिडिया	train	w i k i p i ɖ i j a	wˈɪkɪpˌɪɖɪjˌaː	/wikipiɖija/	yes
 विकिपीडियन	headword	विकिपीडियन	train	b i k i p i ɖ i j ʌ n	bˌɪkɪpˈɪːɖɪjˌən	/wikipiɖijʌn/	no
 विकिपीडिया	headword	विकिपीडिया	train	b i k i p i ɖ i j a	bˌɪkɪpˈɪːɖɪjˌaː	/wikipiɖija/ / [wikipiɽijä]	no
 विकिपीडियाको	form	विकिपीडिया	train	b i k i p i ɖ i j a k o	bˌɪkɪpˌɪːɖɪjˈaːkoː		
@@ -50238,7 +50238,7 @@ word	source	lemma	split	phonemes	hybrid	wiktionary	agrees
 साबुनहरूले	form	साबुन	test	s a b u n ɦ ʌ r u l e	sˌaːbunhˌəɾˈuːleː		
 सामग्रीहरू	headword	सामग्रीहरू	train	s a m ʌ g r i ɦ ʌ r u	sˌaːməɡɾˈɪːhəɾˌuː	[sämʌɡ̞riɦʌɾu]	yes
 सामान	headword	सामान	train	s a m a n	saːmˈaːn	[sämän]	yes
-सामान्य	headword	सामान्य	train	s a m a n j ʌ	saːmˈaːnjˌə	[sämänːe]	no
+सामान्य	headword	सामान्य	train	s a m a n j	saːmˈaːnj	[sämänːe]	no
 सामुदायिक	headword	सामुदायिक	test	s a m u d̪ a j i k	sˌaːmudˈaːjɪk	[sä.mu.d̪ä.ik]	no
 सायर	headword	सायर	train	s a j ʌ r	sˈaːjəɾ	[säer]	no
 सायरको	form	सायर	train	s a j ʌ r k o	sˈaːjəɾkˌoː		

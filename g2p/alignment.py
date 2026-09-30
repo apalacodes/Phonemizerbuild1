@@ -34,11 +34,11 @@ def read_textgrid(path: Path) -> dict[str, list[tuple[float, float, str]]]:
     return tiers
 
 
-def load_suspects() -> list[dict]:
-    """Rows of suspects.tsv, most rival tokens first; [] if MFA has not been run."""
-    if not SUSPECTS_TSV.exists():
+def load_suspects(path: Path = SUSPECTS_TSV) -> list[dict]:
+    """Rows of suspects.tsv (or an earlier run's copy), most rival tokens first; [] if missing."""
+    if not path.exists():
         return []
-    lines = SUSPECTS_TSV.read_text(encoding="utf-8").splitlines()
+    lines = path.read_text(encoding="utf-8").splitlines()
     header = lines[0].split("\t")
     rows = [dict(zip(header, line.split("\t"))) for line in lines[1:]]
     for r in rows:

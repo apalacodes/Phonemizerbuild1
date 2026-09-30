@@ -48,6 +48,8 @@ def main() -> None:
     ap.add_argument("--min-share", type=float, default=0.7, help="rival share of the word's tokens")
     ap.add_argument("--min-tokens", type=int, default=3, help="aligned tokens of the word")
     ap.add_argument("--min-speakers", type=int, default=2, help="different speakers who chose the rival")
+    ap.add_argument("--suspects", type=Path, default=None,
+                    help="an earlier run's suspects.tsv (default: bench/out/mfa/suspects.tsv)")
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
 
@@ -55,7 +57,7 @@ def main() -> None:
     exceptions = schwa.load_exceptions()
     protected = protected_words()
     accept, skipped, weak = [], [], 0
-    for r in load_suspects():
+    for r in load_suspects(args.suspects) if args.suspects else load_suspects():
         w = r["word"]
         by_ear = w in decided and decided[w][0] != "audio"
         if by_ear or (w in exceptions and w not in decided):  # decided by ear, or a hand-listed exception
